@@ -1,34 +1,40 @@
 ## 📝 **Team Meeting Notes**
 
-### 📅 **Meeting Date**: [Date]
-*(e.g., September 15, 2023)*
+### 📅 **Meeting Date**: [Date: 1/25/2024]
 
-### 🕒 **Time**: [Start Time] - [End Time]
-*(e.g., 3:00 PM - 4:00 PM)*
+### 🕒 **Time**: [3:45] - [4:45]
 
-### 📍 **Location**: [Virtual/Physical Location]
-*(e.g., Zoom, Meeting Room A, etc.)*
+### 📍 **Location**: [Discord (virtual)]
+
 
 ### 📣 **Attendees**:
-- [Team Member Name 1]
-- [Team Member Name 2]
-- ...
-*(List all present team members.)*
+- [Emily Lotter]
+- [Miled Kalbourji]
+- [Mohammed Danmola]
+- [David Ogunronbi]
+
 
 ---
 
 ### 🎯 **Meeting Objectives**:
 
-1. Review progress since the last meeting.
-2. Discuss and refine items in the backlog.
-3. Assign responsibilities for the upcoming sprint.
+1. Discuss what programming languages to use for front end and back end
+2. Discuss what strategies to use for organization
 
+   
+   
 ---
 
+### **To-Dos**:
+1. Research what languages work well together for front end and back end and have functionality with databases.
+2. Miled will show MyCompass at class on Monday
+
 ### 🗒️ **Notes**:
+Emily has experience programming in both Java and Python, less experience with back end and APIs.
+Mohammed is comfortable with Python and has experience with database integration utilizing JavaScript and HTML.
+David and Miled have worked on this project previously developing in Java, but were running into issues integrating the front and back end and launching the database.
 
-*(This section can be used to jot down important points, action items, or any miscellaneous information discussed during the meeting that doesn't fit into the above sections.)*
-
+Alternate idea: Create a system to manage marajuana distribution.
 - ...
 
 ---

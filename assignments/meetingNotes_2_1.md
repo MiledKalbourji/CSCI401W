@@ -2,7 +2,7 @@
 
 ### 📅 **Meeting Date**: Date: 2/1/2024
 
-### 🕒 **Time**: 4-5
+### 🕒 **Time**: 4-5:10
 
 ### 📍 **Location**: Discord (virtual)
 
@@ -36,7 +36,7 @@ New
 ### **To-Dos**:
 1. (1/25) Research what languages work well together for front end and back end and have functionality with databases.
 2. Create Product Vision for Monday's Class
-3. 
+
 
 ### 🗒️ **Notes**:
 - Monday's class: what to expect working on a team, sdlc can take a long time.

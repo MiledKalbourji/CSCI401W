@@ -1,19 +1,23 @@
 ## 📝 **Team Meeting Notes**
 
 ### 📅 **Meeting Date**: [Date]
-*(e.g., September 15, 2023)*
+
+_(e.g., September 15, 2023)_
 
 ### 🕒 **Time**: [Start Time] - [End Time]
-*(e.g., 3:00 PM - 4:00 PM)*
+
+_(e.g., 3:00 PM - 4:00 PM)_
 
 ### 📍 **Location**: [Virtual/Physical Location]
-*(e.g., Zoom, Meeting Room A, etc.)*
+
+_(e.g., Zoom, Meeting Room A, etc.)_
 
 ### 📣 **Attendees**:
+
 - [Team Member Name 1]
 - [Team Member Name 2]
 - ...
-*(List all present team members.)*
+  _(List all present team members.)_
 
 ---
 
@@ -27,7 +31,7 @@
 
 ### 🗒️ **Notes**:
 
-*(This section can be used to jot down important points, action items, or any miscellaneous information discussed during the meeting that doesn't fit into the above sections.)*
+_(This section can be used to jot down important points, action items, or any miscellaneous information discussed during the meeting that doesn't fit into the above sections.)_
 
 - ...
 

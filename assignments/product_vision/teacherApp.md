@@ -31,15 +31,15 @@ Teacher App is a cutting edge application software tailored to middle school and
 
 ## Product Vision
 
-The inception of our project was marked by deliberations on potential areas of interest and recognizing our strengths within the domain of computer science. The decision was made in favor of devising a blockchain forensic analysis tool. This tool would assist financial establishments in probing into their client’s financial transactions, particularly the source and transfer of funds. Given the burgeoning popularity of the crypto market and the attendant potential for financial crime, the significance of transaction risk identification cannot be overstated. Our envisioned product is designed to facilitate fund transfers using a decentralized network of ledgers.
+Empowering educators and enhancing student engagement, Teacher App envisions a future where bunking and truancy is reduced in middle schools and high schools. By providing a user friendly application for teachers to manage attendance and send push notifications our goal is to improve student success and well being. Teacher App strives to be the go-to solution, changing how teachers approach attendance tracking, ultimately shaping a positive educational experience for both educators and students alike.
 
 ## Vision Statement
 
-For financial compliance professionals who require insights into the origin/destination of blockchain-based fund transfers, Blockr.io, a cloud-based SaaS application, offers the expertise. Unlike other forensic analysis tools, Blockr.io integrates cutting-edge technology, ensuring compliance teams are equipped to make informed risk management decisions.
+To be the driver for a positive change in education, Teacher App envisions a world where students feel valued and engaged.By revolutionizing the approach to attendance management, we aspire to create a learning environment where truancy is minimized, and students thrive. Teacher App aims to be the cornerstone of a future where education is not just about imparting knowledge but fostering a sense of connection, empowerment, and success for every student.
 
 ## Product Vision Board
 
-We're cultivating Blockr.io, comprehending the prospective challenges blockchain can bring in the sphere of financial services, particularly around money laundering. With Blockr.io, compliance teams are empowered to meticulously track and scrutinize potentially risky fund transfers.
+Our mission is to improve the overall education system for students and teachers. We hope to raise the attendance of students in class and improve their academic success. With Teacher App, schools and teachers can tackle the ongoing issue of truancy.
 
 **Target Audience**:
 

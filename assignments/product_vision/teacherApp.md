@@ -21,13 +21,13 @@
 | Name                 | Role      | Notes |
 | -------------------- | --------- | ----- |
 | David Ogunronbi      | Developer |       |
-| Emily, Lotter        | Developer |       |
-| Miled, Kalbourji     | Developer |       |
-| Mohammed B., Danmola | Developer |       |
+| Emily Lotter        | Developer |       |
+| Miled Kalbourji     | Developer |       |
+| Mohammed B. Danmola | Developer |       |
 
 ## Executive Summary
 
-Teacher App is a cutting edge application software tailored to middle school and high schools, focused with the issue of attacking the issue of students skipping class and student truancy. Accessible through mobile devices and web apps it offers a very simple interface for teachers to monitor attendance in each class Teacher App is committed to improving student attendance and overall academic success in middle school and high school.
+Teacher App is a cutting edge application software tailored to middle school and high schools, focused with the issue of attacking the issue of students skipping class and student truancy. Accessible through mobile devices and web apps it offers a very simple interface for teachers to monitor attendance in each class. Teacher App is committed to improving student attendance and overall academic success in middle school and high school.
 
 ## Product Vision
 
@@ -35,7 +35,7 @@ Empowering educators and enhancing student engagement, Teacher App envisions a f
 
 ## Vision Statement
 
-To be the driver for a positive change in education, Teacher App envisions a world where students feel valued and engaged.By revolutionizing the approach to attendance management, we aspire to create a learning environment where truancy is minimized, and students thrive. Teacher App aims to be the cornerstone of a future where education is not just about imparting knowledge but fostering a sense of connection, empowerment, and success for every student.
+To be the driver for a positive change in education, Teacher App envisions a world where students feel valued and engaged. By revolutionizing the approach to attendance management, we aspire to create a learning environment where truancy is minimized, and students thrive. Teacher App aims to be the cornerstone of a future where education is not just about imparting knowledge but fostering a sense of connection, empowerment, and success for every student.
 
 ## Product Vision Board
 
@@ -70,7 +70,7 @@ For the minimum viable product, the development focus would be on:
 | **Problem**            | - Schools alredy have a some sort of system in place for attendance                                                  |
 |                        | - Teachers can forget to monitor attendance on the app                                                               |
 |                        | - Student attendance                                                                                                 |
-| **Solution**           | - Market is as a better and more convenient product to use tha the current system in place                           |
+| **Solution**           | - Market it as a better and more convenient product to use than the current system in place                           |
 |                        | - Set a reminder for teacher to monitor attendance after a certain amount of time has passed after class has started |
 |                        | - Consider the creation of a proprietary watchlist                                                                   |
 | **Unique Value Prop.** | A unique tool to combat financial crime and safeguard financial systems.                                             |

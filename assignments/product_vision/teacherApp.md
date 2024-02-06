@@ -73,10 +73,10 @@ For the minimum viable product, the development focus would be on:
 | **Solution**           | - Market it as a better and more convenient product to use than the current system in place                           |
 |                        | - Set a reminder for teacher to monitor attendance after a certain amount of time has passed after class has started |
 |                        | - Consider the creation of a proprietary watchlist                                                                   |
-| **Unique Value Prop.** | A unique tool to combat financial crime and safeguard financial systems.                                             |
-| **Unfair Advantage**   | Proprietary risk detection algorithm flagging suspicious transactions.                                               |
+| **Unique Value Prop.** | An efficient way to alert parents of student truancy.                                             |
+| **Unfair Advantage**   | Student absence tracking, parent notification in real time.                                               |
 | **Customer Segments**  | Teachers, Parents, School districts, third party companies used by schools                                           |
-| **Key Metrics**        | Increased student attendance, more efficient attendance taking for teachers, how many parents are enrolled for alerts                |
+| **Key Metrics**        | Increased student attendance, more efficient attendance taking for teachers, how many parents are enrolled for alerts.                |
 | **Channels**           | Website, Mobile app, email notifications                                                                             |
 | **Cost Structure**     | Varied cost outlines from legal fees to developer salaries.                                                          |
 | **Revenue Streams**    | Client contracts,                                                                                                    |

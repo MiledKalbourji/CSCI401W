@@ -76,7 +76,7 @@ For the minimum viable product, the development focus would be on:
 | **Unique Value Prop.** | A unique tool to combat financial crime and safeguard financial systems.                                             |
 | **Unfair Advantage**   | Proprietary risk detection algorithm flagging suspicious transactions.                                               |
 | **Customer Segments**  | Teachers, Parents, School districts, third party companies used by schools                                           |
-| **Key Metrics**        | Client acquisition rates, blockchain search queries, risky blockchain connections, watchlist matches.                |
+| **Key Metrics**        | Increased student attendance, more efficient attendance taking for teachers, how many parents are enrolled for alerts                |
 | **Channels**           | Website, Mobile app, email notifications                                                                             |
 | **Cost Structure**     | Varied cost outlines from legal fees to developer salaries.                                                          |
 | **Revenue Streams**    | Client contracts,                                                                                                    |

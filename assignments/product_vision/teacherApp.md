@@ -85,9 +85,3 @@ For the minimum viable product, the development focus would be on:
 ## Risks
 
 While the goal of Teacher App is for convenience and combatting truancy, data sensitivity and privacy is a core issue including the integrity of the system and following FERPA guidelines.
-
-## Product Scaniro 
- **Product Scaniro #1- Parent**  
-
- Parent - Eliza Jones, Single Parent 35 years old has a child names Elis Jones  Becky has long days working the emergency room, working almost 16 hours days.   Her eldest son Timmy just started high school. Within the first month, Eliza had realized that her son Elis has been hanging out with a different group of friends from the previous year. Elis has started to become more distant from his mother and would not be in tune for conversations when he had with Elis.Eliza realized that she needed to know what was going on. The following day Eliza signed up on student.io, Within the school district to have notifications whenever Elis skipped class. Within the first week Eliza had realized that Eliz had been skipping the last period of class and catching a ride from his new group of friends, before Eliza got home from her 16 hour work day. Thanks to student.io Eliza can freely roam her day knowing that Elis is safe in school and learning. 
-

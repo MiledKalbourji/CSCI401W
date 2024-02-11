@@ -34,7 +34,7 @@ FOR financial compliance professionals WHO need to look into the source/destinat
 
 **Kathy Griffin**, Head of Sanctions screening, was tasked with assessing the risk associated with ACME Bank’s newly onboarded clients. Kathy assembles her investigations team to review the exceptions identified by Blockr.io. Kathy understands how important this assignment is, so she utilizes Blockr.io's real-time dashboard to monitor the progress her team is making as they review exceptions, and credible concerns are identified.
 
-**Elis Jones is a 15 year old Sophomore at Gotham High School. He is the child of single mother Eliza Jones. His mother works double shift throughout the week so she is not able to be as active in Elis education as he would like. On average Elis misses 11 of the 30 class periods scheduled per week. His mother is not even in the know on this situation. By using teacher.io Elis’ mother will be notified as to when he is missing class so she can take action with her son. Elis has been taking advantage of the freedom afforded from his mother’s work schedule.
+**Elis Jones** is a 15 year old Sophomore at Gotham High School. He is the child of single mother Eliza Jones. His mother works double shift throughout the week so she is not able to be as active in Elis education as he would like. On average Elis misses 11 of the 30 class periods scheduled per week. His mother is not even in the know on this situation. By using teacher.io Elis’ mother will be notified as to when he is missing class so she can take action with her son. Elis has been taking advantage of the freedom afforded from his mother’s work schedule.
 
 ## User Stories
 

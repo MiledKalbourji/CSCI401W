@@ -15,6 +15,7 @@
 5. [Product Vision Board](#product-vision-board)
 6. [Lean Canvas](#lean-canvas)
 7. [Risks](#risks)
+8. [Product Scaniro](#Product-Scaniro)
 
 ## Team
 
@@ -84,3 +85,8 @@ For the minimum viable product, the development focus would be on:
 ## Risks
 
 While the goal of Teacher App is for convenience and combatting truancy, data sensitivity and privacy is a core issue including the integrity of the system and following FERPA guidelines.
+
+## Product Scaniro 
+| **Product Scaniro #1- Parent**  
+| ------------------ | ---------------------------------------------------------------------------------| 
+| **Parent**         | - Becky Gomes, Single Parent 35 years old 3 children all in different age groups. Becky has long days working the emergency room, working almost 16 hours days.   Her eldest son Timmy just started high school. Within the first month, Becky had realized that her son Timmy has been hanging out with a different group of friends from the previous year. Timmy has started to become more distant from his mother and would not be in tune for conversations when he had with Becky. Becky realized that she needed to know what was going on. The following day Becky signed up within the school district to have notifications whenever Timmy skipped class. Within the first week Becky had realized that Timmy had been skipping the last period of class and catching a ride from his new group of friends, before Becky got home from her 16 hour work day. |   

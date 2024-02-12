@@ -28,7 +28,7 @@
 
 ## Executive Summary
 
-Teacher App is a cutting edge application software tailored to middle school and high schools, focused with the issue of attacking the issue of students skipping class and student truancy. Accessible through mobile devices and web apps it offers a very simple interface for teachers to monitor attendance in each class. Teacher App is committed to improving student attendance and overall academic success in middle school and high school.
+For middle and high school educators struggling with student truancy, Teacher App is a mobile and web-based attendance management system that simplifies tracking and instantly notifies parents of absences, unlike conventional systems that are manual and time-consuming. Our product offers real-time updates and a user-friendly interface, setting a new standard for attendance management in schools.
 
 ## Product Vision
 

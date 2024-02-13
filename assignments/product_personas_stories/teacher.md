@@ -45,60 +45,58 @@ FOR financial compliance professionals WHO need to look into the source/destinat
 
 **Description**
 
-- As a Blockr.io client, I need a way to manage my Blockr.io subscriptions which include adding and removing users.
-- As an investigator using Blockr.io, I need a way to log into the application. Authentication will grant me the necessary permission to complete my tasks.
-- As a member of the organization's (client) leadership team, I need to log into the Blockr.io application and access dashboards.
+- As a teacher, I need a way to notify the parents of my students when they are absent.
+- As a parent, I need a way to know when my student is absent so I can follow up with them.
 
 **Constraints**
 
-Authentication from the SaaS application requires verification through the client’s authentication protocol or through our authentication mechanism.
+Need to obtain consent to recieve text notificaions.  Keeping student informaton private is also critical, and measures need to be taken to ensure that the proper guardians are receiving the notifications
 
 **Comments**
 
-- All users will authenticate through a single page and will be routed to the appropriate instance based on access policies setup by instance administrators.
-- Users may only set up an account through invitation from instance administrators.
+- All students who are absent will have a notification sent home.
+- Parents will have an opportunity to opt in to these notifications.
+- Ensuring only parents recieve student truancy notificatons is being compliant with FERPA laws.
 
 ### Feature2: Student Database
 
 **Description**
 
-- As a Blockr.io user, I want to visualize my organization’s performance and usage of the Blockr.io application.
-- As a Blockr.io user, I need to know the breakdown of exception backlogs, displayed by status group (open/in-progress/closed).
-- As a Blockr.io user, I need to know if exceptions were assigned to me for further review.
-- As a Blockr.io user, I need to know when progress was made on an exception I am "watching".
-- As a member of the Leadership/management team, I want to know how many active users are working.
-- As a member of the Leadership/management team, I want to know how many exceptions were escalated for further review by the investigations team.
+- As a teacher, I need access to the truancy information for students in my class.
+- As an admin, I need to be able to store student and parent/guardian contact information in a secure fashion.
+- As an admin, I need the ability to track truancy data.
+- As an admin, I need the ability to assign classes of students to a teacher.
 
 **Constraints**
 
-Dashboard must only share tenant-specific statistics.
+Database must only show the data necessary for a particular user.
 
 ### Feature3: Teacher Friendly User Interface
 
 **Description**
 
-- As an investigator, I need a way to search a given bitcoin address on the blockchain.
-- As an investigator, I need a way to view connections to a bitcoin address as a graph.
-- As an investigator, I need a way to click on a bitcoin address node on the graph and read information about the address such as the number of transactions, holdings, and reports of abuse.
-- As an investigator, I need a way to flag bitcoin address nodes for ongoing monitoring.
-- As an investigator, I need a way to assign a network graph to a colleague, including escalating to senior management.
-- As an investigator, I need a way to enter comments about a network to share with colleagues, including senior management.
+- As a teacher, I need to have lists of students in each of my classes that I can choose from.
+- As a teacher, I need to be able to quickly check off students that are present - As a teacher, I need have a button to send notifications to the parents of absent students.
 
 **Constraints**
 
-Sharing/assigning networks to colleagues is limited to those within the tenant instance.
+If a teacher is out for a day, the sub needs access to their class.
+
+**Comments**
+
+- Create a one time passcode for substitute teachers.
 
 ### Feature4: Tracking System for Student Truancy
 
 **Description**
 
 - As an administrator, I need to have a way to invite users to the organization’s instance.
-- As an administrator, I need a way to manage a watchlist of addresses.
-- As an administrator, I need a way to adjust the parameters for our transactions monitoring system.
+- As an administrator, I need a way to track student truancy
+- As an administrator, I need a way to keep track of student and parent contact information in a secure fashion
 
 **Constraints**
 
-Limited to the tenant's instance.
+Keeping it secure and private.  Making sure it's accurate. Lack of internet connection.
 
 ## User Experience
 

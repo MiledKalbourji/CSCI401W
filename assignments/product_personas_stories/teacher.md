@@ -17,7 +17,7 @@ Table of Contents
 
 ## Vision Statement
 
-FOR financial compliance professionals WHO need to look into the source/destination of funds transferred using the blockchain. **Blockr.io** is a web-based SaaS application THAT permits compliance teams to derive insights from the blockchain and mitigate financial crime risk. UNLIKE other forensic analysis tools, OUR PRODUCT provides state of the art technology that empowers compliance teams to make better risk management decisions.
+To be the driver for a positive change in education, **Teacher App** envisions a world where students feel valued and engaged. By revolutionizing the approach to attendance management, we aspire to create a learning environment where truancy is minimized, and students thrive. **Teacher App** aims to be the cornerstone of a future where education is not just about imparting knowledge but fostering a sense of connection, empowerment, and success for every student.
 
 ## Product Personas
 

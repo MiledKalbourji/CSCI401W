@@ -104,16 +104,22 @@ Describe the user interface for your product.
 
 - [Insert simple wireframes of your product—what will it look like from a user interface perspective]
 
-  Teacher arrives at homepage: <insert picture here>
+Attendance rate graph:
 
-  Teachers are prompted to sign in: <insert picture here>
+![Teacher drawio](https://github.com/MiledKalbourji/CSCI401W/assets/49528338/98b63f63-d3c7-4b0b-9236-8288c7c16218)
 
-  Gain access to take student attendance: <insert picture here>
+School selection page:
 
-  Click the class they are teaching during that period: <insert picture here>
+![Admin drawio](https://github.com/MiledKalbourji/CSCI401W/assets/49528338/5cc6606c-1f46-4f6d-a307-6c15abe4fe94)
 
-  In case student is skipping teacher marks the student as skipping : <insert picture here>
+Teacher homepage (menu under avatar in upper right collapses):
 
-  Notification is sent to the parent : <insert picture here>
+![TeacherHomepage](https://github.com/MiledKalbourji/CSCI401W/assets/49528338/14cc984c-2b43-44af-baae-731bdf584411)
 
-  Teacher can then logout or return to their main page: <insert picture here>
+Login page:
+
+![LoginPage](https://github.com/MiledKalbourji/CSCI401W/assets/49528338/a0a6ca9a-fe84-4e10-a201-71e06d51e499)
+
+View of the class (menu under avatar in upper right collapses):
+
+![Class view diagram](https://github.com/MiledKalbourji/CSCI401W/assets/49528338/618a89d5-fefc-445e-a81a-3a9ac7a414f6)

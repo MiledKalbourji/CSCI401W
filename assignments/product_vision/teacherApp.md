@@ -28,7 +28,7 @@
 
 ## Executive Summary
 
-For middle and high school educators struggling with student truancy, Teacher App is a mobile and web-based attendance management system that simplifies tracking and instantly notifies parents of absences, unlike conventional systems that are manual and time-consuming. Our product offers real-time updates and a user-friendly interface, setting a new standard for attendance management in schools.
+To be the driver for a positive change in education, Teacher App envisions a world where students feel valued and engaged. By revolutionizing the approach to attendance management, we aspire to create a learning environment where truancy is minimized, and students thrive. Teacher App aims to be the cornerstone of a future where education is not just about imparting knowledge but fostering a sense of connection, empowerment, and success for every student.
 
 ## Product Vision
 
@@ -36,7 +36,7 @@ Empowering educators and enhancing student engagement, Teacher App envisions a f
 
 ## Vision Statement
 
-To be the driver for a positive change in education, Teacher App envisions a world where students feel valued and engaged. By revolutionizing the approach to attendance management, we aspire to create a learning environment where truancy is minimized, and students thrive. Teacher App aims to be the cornerstone of a future where education is not just about imparting knowledge but fostering a sense of connection, empowerment, and success for every student.
+For middle and high school educators struggling with student truancy, Teacher App is a mobile and web-based attendance management system that simplifies tracking and instantly notifies parents of absences, unlike conventional systems that are manual and time-consuming. Our product offers real-time updates and a user-friendly interface, setting a new standard for attendance management in schools.
 
 ## Product Vision Board
 

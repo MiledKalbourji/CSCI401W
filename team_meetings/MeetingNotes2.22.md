@@ -20,7 +20,7 @@
 1. Review Monday's class for David
 2. Sprint Review
 3. Go over Assignment 3
-4. 
+4. Product descripton and vision statement
 
 ---
 

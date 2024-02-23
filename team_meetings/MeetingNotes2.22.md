@@ -1,16 +1,14 @@
 ## 📝 **Team Meeting Notes**
 
-### 📅 **Meeting Date**: Date: 2/12/2024
+### 📅 **Meeting Date**: Date: 2/22/2024
 
-### 🕒 **Time**: 
+### 🕒 **Time**: 4:15 - 4:40
 
 ### 📍 **Location**: Discord (virtual)
 
 ### 📣 **Attendees**:
 
 - Emily Lotter
-- Miled Kalbourji
-- Mohammed Danmola
 - David Ogunronbi
 
 ---
@@ -30,6 +28,9 @@
 
 ### 🗒️ **Notes**:
 
-- 
+- Going over assignment 3
+- Talked about the switch of Product description & Vision statement
+- More detailed product scenarios
+- Frameworks - maybe look into meteor, front end HTML or bootstrap. Check into Justin Port's project to see if his framework will work for us.
 
 ---

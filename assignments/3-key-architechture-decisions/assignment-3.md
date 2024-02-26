@@ -26,13 +26,13 @@ This assignment is designed to guide you in understanding the foundational aspec
 
 ### 1.1. Purpose
 
-A brief overview of what this document entails.
+This document provides insight into the decisions made on the frameworks and coding languages used in the Teacher.io project.
 
 ---
 
 ## 2. System Overview
 
-Provide a simple diagram or description of the high-level system.
+Teacher App is an app designed to track student truancy through attendance utilities.  The app gives teachers a UI To take attendance and alert parents via text message if their student is absent.  It also allows administrators to keep track of truancy rates within a school or district.
 
 ---
 

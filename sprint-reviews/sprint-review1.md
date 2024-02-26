@@ -21,11 +21,12 @@
 
 *(Reflect on the process, decisions made, tools used, and the challenges encountered. Discuss any insights that the team can take forward into the next sprint.)*
 
-1. **Lesson 1**: Short description about the lesson. *(e.g., "Regular check-ins increase team cohesion.")*
+1. **Lesson 1**: It takes a lot more planning to code than expected.  
 
-2. **Lesson 2**: ...
+2. **Lesson 2**: Communication is key, especially when we are not able to all be present.  Going forward, we can continue to fill in our teammates when they are absent.
+   
+3. **Lesson 3**: Assigning tasks to each other gives us direction and helps us stay productive.  This also helps us stay organized and run our meetings better.
 
-*(Continue as needed)*
 
 ---
 
@@ -33,11 +34,9 @@
 
 *(Celebrate your successes! List major or minor accomplishments, breakthroughs, or moments of clarity.)*
 
-1. **Win 1**: Brief description about the win. *(e.g., "Successfully integrated the login module with the backend.")*
+1. **Win 1**: We have established good teamwork, which has helped us to stay on task and be organized.
 
-2. **Win 2**: ...
-
-*(Continue as needed)*
+2. **Win 2**: We established a strong foundation for our project, identifying areas that we would like to develop and creating a solid idea of where we want our project to go.
 
 ---
 
@@ -45,11 +44,11 @@
 
 *(Identify areas where the team can make changes to be more efficient, effective, or collaborative in the next sprint.)*
 
-1. **Improvement 1**: Short description about the area of improvement. *(e.g., "Need to establish clearer communication guidelines for remote work.")*
+1. **Improvement 1**: Figure out what we would like to use for our database frameworks and get moving toward a combination of that.
 
-2. **Improvement 2**: ...
+2. **Improvement 2**: Miled would like to improve on his attendance, and we can all work to be fully present in each class and meeting.
 
-*(Continue as needed)*
+3. **Improvement 3**: Clarity for implementing security in our system.
 
 ---
 
@@ -57,4 +56,6 @@
 
 *(Optional: Give a shoutout or acknowledgment to team members who went above and beyond during the sprint.)*
 
-- **[Team Member Name]**: Contribution or effort. *(
+- **[Emily]**: Mo offered a shoutout to Emily for notetaking
+- **[David and Emily]**: Mo offered a shoutout to David and Emily for the UI diagrams
+- **[All]** David complimented everyone for their communication

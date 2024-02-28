@@ -22,7 +22,14 @@ For middle and high school educators struggling with student truancy, Teacher Ap
 ## Product Personas
 
 - **Persona 1**: Truant student, (beneficiary) truant students are children who often skip class leading to them failing the class. These are students who have parents that aren’t engaged with the child’s education.
-- **Persona 2**: Single Parent, (secondary user) not the primary users, they are the ones to receive text notifications from the teachers if their child had bunked that class on that day.
+- **Persona 2**: Name: Eliza Jones 
+                  Age: 35 
+                  Single Parent, Occuptation: Doctor @Gotham City Hospital, 
+                  Background: Eliza got her doctoral degree while Elis was growing up in the Gotham City School district. When Elis got into the 8th grade, Elis father's Mark passed away from gun violence on the same street Elis grew up. 
+                  Behaviors: Eliza is single parent working 16 hour shifts at the hospital neglecting her son because of her job. 
+                  Challenges: Eliza raising a child by herself, while savings other people's lives, she is drowning in sorrow because she is not nearly invloded in her child life than she wants to be. 
+                  Motivations:To be evolved in her child life. To show Elis that school can be sometimes be challenging but be exciting to learn new material. 
+                  How the Teacher App Helps: Eliza can be doing her busy shifts at Gotham City Hospital, she can have real time notifications whenever Elis is skipping school, benefits the child and the parent because Elis feels like his mother cares and Eliza can feel better connected to her son.
 - **Persona 3**: School District (customer/buyer) In the Gotham city district , we have below average attendance throughout the school system. Teacher app will help the attendance, meaning better funding for that school district.
 - **Persona 4**: Teachers in the Gotham city school district will have full hands on the teacher app to track students attendance , once a student doesn’t show up it will ping the students’ parents.
 

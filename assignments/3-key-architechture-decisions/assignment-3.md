@@ -40,15 +40,15 @@ Teacher App is an app designed to track student truancy through attendance utili
 
 ### 3.1. Frontend Framework
 
-Which frontend framework/library are you using? Most importantly, **why** did you choose it?
+We will be using Django. The framework is compatible with Python which provides a wide variety of libraries. Our instructor is also familiar with it which will provide a helpful resource if we run into obstacles.  Choosing Django also allows us to use one framework for both the front end and the back end. 
 
 ### 3.2. Backend Framework
 
-Your choice for the backend and the reasons behind it.
+We will be using Django. The framework is compatible with Python which provides a wide variety of libraries. Our instructor is also familiar with it which will provide a helpful resource if we run into obstacles.  Choosing Django also allows us to use one framework for both the front end and the back end. Django has an emphasis on security features. Django is also useful for implementing push notifications.
 
 ### 3.3. Database System
 
-Which database system will you use, and **why**?
+We will be using MongoDB.  Mohammed has some familiarity with it and it provides the necessary functionality for what we are looking for.  Mongo is also compatible with Excel spreadsheets, which is the format of some of the mock data that Miled has found.
 
 ---
 
@@ -56,15 +56,15 @@ Which database system will you use, and **why**?
 
 ### 4.1. Team Skills and Learning
 
-Are there particular strengths within your team that influenced your decisions? Is there a particular technology someone is excited to learn more about?
+Mohammed has experience working with MongoDB which was a factor in choosing that for our database framework. We are all looking forward to learning Django.
 
 ### 4.2. Community and Support
 
-Did the availability of tutorials, community support, or other resources influence your choice?
+Django is a very well documented framework that has a lot of available resources.  Our instructor also has experience in Django which will give us another resource. MongoDB is also a very well documented framework with a lot of available resources.
 
 ### 4.3. Future Adaptability
 
-How easy do you believe it will be to adapt or extend the technology choices you’ve made in the future based on your current knowledge?
+We hope to develop our program into a desktop app eventually, which should be a relatively easy task. The base of our program will provide most of the necessary functionality, and scaling it will just require extending the system, especially given the fact that we are using a common set of frameworks.
 
 ---
 
@@ -74,6 +74,7 @@ Here, you'll log key decisions made and the rationale behind them. Here's an exa
 
 | Date       | Decision                                 | Reasoning                                                                                                           |
 |------------|------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| 2023-09-01 | Chose React as our frontend framework.   | Our team found an abundance of beginner-friendly tutorials for React. Additionally, two members have some prior exposure to it, making it a logical starting point for our project. |
+| 2024-02-29 | Chose Django as our frontend and backend framework.   | There are a lot of available resources on Django, and it has the capability to serve as both the front end framework and the back end framework. |
+| 2024-02-29 | Chose MongoDB as our database framework.              | There are a lot of available resources on MongoDB, as well as resources on using it in conjuction with Django. |
 
 Note: As you progress, keep adding to this log. It will not only help you track your decisions but also offer insights into your evolving

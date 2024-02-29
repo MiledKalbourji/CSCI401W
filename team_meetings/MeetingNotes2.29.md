@@ -2,7 +2,7 @@
 
 ### 📅 **Meeting Date**: Date: 2/22/2024
 
-### 🕒 **Time**: 4:15 - 4:40
+### 🕒 **Time**: 4:00 - 5:00
 
 ### 📍 **Location**: Discord (virtual)
 
@@ -17,9 +17,10 @@
 
 ### 🎯 **Meeting Objectives**:
 
-1. Go over Assignment 3
-2. Product descripton and vision statement
-3. Go over Assignment 2
+1.Trello lists
+2. Go over Assignment 3
+3. Product descripton and vision statement
+4. Go over Assignment 2
 
 ---
 

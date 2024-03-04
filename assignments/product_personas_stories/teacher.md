@@ -21,7 +21,14 @@ For middle and high school educators struggling with student truancy, Teacher Ap
 
 ## Product Personas
 
-- **Persona 1**: Truant student, (beneficiary) truant students are children who often skip class leading to them failing the class. These are students who have parents that aren’t engaged with the child’s education.
+- **Persona 1**: Name: Elis Jones
+                  Age: 15
+                  Grade: Sophomore at Gotham High School
+                  Background: Comes from a single-parent household. Elis' mother works two jobs, leaving Elis unsupervised often.
+                  Behaviors: Often will skip class to hang out with friends at the local arcade or mall. Struggles with assignments and does not receive support. No consequences for actions.
+                  Challenges: He feels unnoticed by teachers and disconnected from his single parent who is always busy.
+                  Motivations: Desires more attention and support from adults in his life. Wants to do well but feels overwhelmed.
+                  How Teacher App Helps: Sends real-time notifications to Alex's mother about his truancy, prompting discussions at home. The app also highlights which subjects Alex struggles with, enabling his mother to seek tutoring help.
 - **Persona 2**: Name: Eliza Jones 
                   Age: 35 
                   Single Parent, Occuptation: Doctor @Gotham City Hospital, 
@@ -42,7 +49,7 @@ For middle and high school educators struggling with student truancy, Teacher Ap
 **Vinny Ucci**, A math teacher at Gotham High School has a reoccurring issue with a student named Elis in his period 3 class who refuses to show up to his class and continues to make up excuses as to why they are late or never there. This student in Mr Ucci's class only shows up at most once a week. Mr. Ucci has tried relaying the information to the parents via email and phone calls and has had no success. By using teacher.io Elis's parents/guardians will be notified via text message every time Elis bunks class. Thanks to teacher.io Elis's parents now know that he has been bunking class and will be failing math if he doesn't change.
 
 
-**Elis Jones** is a 15 year old Sophomore at Gotham High School. He is the child of a single mother Eliza Jones. His mother works double shifts throughout the week so she is not able to be as active in Elis's education as he would like. On average Elis misses 11 of the 30 class periods scheduled per week. His mother is not even in the know about this situation. By using teacher.io Elis’ mother will be notified as to when he is missing class so she can take action with her son. Elis has been taking advantage of the freedom afforded by his mother’s work schedule. 
+**Elis Jones** After implementing the Teacher App, a significant change in Elis's attendance and performance occurs. The immediate text notifications to Elis' mother resulted in a drastic change in his truancy. Elis' parents now aware of the situation, have had several discussions with Elis about the importance of education, and have adjusted their work schedules to spend more time with him. The school counselor is also involved, providing Elis with additional support. Over time, Elis's attendance improves, and he starts participating more actively in class. The counselor recommends that Elis play a sport that he likes, which would him another reason to stay committed in his classes.
 
 **Eliza Jones** - Single Parent 35 years old has a child named Elis Jones Eliza has long days working the emergency room, working almost 16 hours days.   Her eldest son Elis just started high school. Within the first month, Eliza had realized that her son Elis has been hanging out with a different group of friends from the previous year. Elis has started to become more distant from his mother and would not be in tune for conversations when he had with Elis. Eliza realized that she needed to know what was going on. The following day Eliza signed up on teacher.io, within the school district to have notifications whenever Elis skipped class. Within the first week Eliza had realized that Eliz had been skipping the last period of class and catching a ride from his new group of friends, before Eliza got home from her 16 hour work day. Thanks to teacher.io Eliza can freely roam her day knowing that Elis is safe in school and learning. 
 

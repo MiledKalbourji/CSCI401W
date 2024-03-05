@@ -96,6 +96,10 @@ Need to obtain consent to receive text notifications.  Keeping student informati
 
 **Acceptance Criteria**
 
+- Data is up to scale with the amount of data we're inputting
+- Data is sorted by the class and names of students
+
+
 **Constraints**
 
 Database must only show the data necessary for a particular user.
@@ -105,10 +109,12 @@ Database must only show the data necessary for a particular user.
 **Description**
 
 - As a teacher, I need to have lists of students in each of my classes that I can choose from.
-- As a teacher, I need to be able to quickly check off students that are present - As a teacher, I need to have a button to send notifications to the parents of absent students.
+- As a teacher, I need to be able to quickly check off students who are present - As a teacher, I need to have a button to send notifications to the parents of absent students.
 
 **Acceptance Criteria**
 
+- Teachers find it easy and simple to navigate and use the web app
+- Teachers can quickly send notifications to parents at the press of a button
 
 **Constraints**
 
@@ -128,6 +134,8 @@ If a teacher is out for a day, the sub needs access to their class.
 
 **Acceptance Criteria**
 
+- Administrators send invitations to all the teachers of the school to join the system, and teachers successfully join the system
+- 
 
 **Constraints**
 

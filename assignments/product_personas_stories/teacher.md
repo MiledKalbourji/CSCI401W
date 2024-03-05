@@ -69,15 +69,21 @@ For middle and high school educators struggling with student truancy, Teacher Ap
 - As a teacher, I need a way to notify the parents of my students when they are absent.
 - As a parent, I need a way to know when my student is absent so I can follow up with them.
 
+**Acceptance Criteria**
+- Text notification sent within 15 minutes
+- Parents received personalized messages with date and class the student is bunking from
+- system logs all information for auditing
+
+
 **Constraints**
 
-Need to obtain consent to recieve text notificaions.  Keeping student informaton private is also critical, and measures need to be taken to ensure that the proper guardians are receiving the notifications
+Need to obtain consent to receive text notifications.  Keeping student information private is also critical, and measures need to be taken to ensure that the proper guardians are receiving the notifications
 
 **Comments**
 
 - All students who are absent will have a notification sent home.
-- Parents will have an opportunity to opt in to these notifications.
-- Ensuring only parents recieve student truancy notificatons is being compliant with FERPA laws.
+- Parents will have an opportunity to opt into these notifications.
+- Ensuring only parents receive student truancy notifications is being compliant with FERPA laws.
 
 ### Feature2: Student Database
 
@@ -88,6 +94,8 @@ Need to obtain consent to recieve text notificaions.  Keeping student informaton
 - As an admin, I need the ability to track truancy data.
 - As an admin, I need the ability to assign classes of students to a teacher.
 
+**Acceptance Criteria**
+
 **Constraints**
 
 Database must only show the data necessary for a particular user.
@@ -97,7 +105,10 @@ Database must only show the data necessary for a particular user.
 **Description**
 
 - As a teacher, I need to have lists of students in each of my classes that I can choose from.
-- As a teacher, I need to be able to quickly check off students that are present - As a teacher, I need have a button to send notifications to the parents of absent students.
+- As a teacher, I need to be able to quickly check off students that are present - As a teacher, I need to have a button to send notifications to the parents of absent students.
+
+**Acceptance Criteria**
+
 
 **Constraints**
 
@@ -105,7 +116,7 @@ If a teacher is out for a day, the sub needs access to their class.
 
 **Comments**
 
-- Create a one time passcode for substitute teachers.
+- Create a one-time passcode for substitute teachers.
 
 ### Feature4: Tracking System for Student Truancy
 
@@ -114,6 +125,9 @@ If a teacher is out for a day, the sub needs access to their class.
 - As an administrator, I need to have a way to invite users to the organization’s instance.
 - As an administrator, I need a way to track student truancy
 - As an administrator, I need a way to keep track of student and parent contact information in a secure fashion
+
+**Acceptance Criteria**
+
 
 **Constraints**
 

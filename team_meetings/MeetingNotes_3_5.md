@@ -11,7 +11,7 @@
 - Emily Lotter
 - David Ogunronbi
 - Miled Kalbourji
-- Mohammed Danmola
+
 
 ---
 
@@ -24,10 +24,12 @@
 
 ### **To-Dos**:
 
-1. 
+1. Finish revisions on assignment 2 before Thursday's meeting
 
 ### 🗒️ **Notes**:
 
+- Looked over Assignment 3 feedback
+- Looked at assignment 2, talked about lengthening personas and product scenarios as well as adding acceptance criteria
 - 
 
 

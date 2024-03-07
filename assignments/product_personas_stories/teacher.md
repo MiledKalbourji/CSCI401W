@@ -68,11 +68,14 @@ For middle and high school educators struggling with student truancy, Teacher Ap
 
 - As a teacher, I need a way to notify the parents of my students when they are absent.
 - As a parent, I need a way to know when my student is absent so I can follow up with them.
+- As a software developer I need to find a framework package that allows users to send text/email notifications
 
 **Acceptance Criteria**
+
 - Text notification sent within 15 minutes
-- Parents received personalized messages with date and class the student is bunking from
+- Parents received personalized messages with the date and class the student is bunking from
 - system logs all information for auditing
+- Utilized a library from Django for sending text notifications
 
 
 **Constraints**
@@ -81,7 +84,7 @@ Need to obtain consent to receive text notifications.  Keeping student informati
 
 **Comments**
 
-- All students who are absent will have a notification sent home.
+- All absent students will have a notification sent home.
 - Parents will have an opportunity to opt into these notifications.
 - Ensuring only parents receive student truancy notifications is being compliant with FERPA laws.
 
@@ -90,15 +93,16 @@ Need to obtain consent to receive text notifications.  Keeping student informati
 **Description**
 
 - As a teacher, I need access to the truancy information for students in my class.
-- As an admin, I need to be able to store student and parent/guardian contact information in a secure fashion.
+- As an admin, I need to be able to store student and parent/guardian contact information securely.
 - As an admin, I need the ability to track truancy data.
 - As an admin, I need the ability to assign classes of students to a teacher.
+- As a software developer I must find a database system that has the scalability to handle the data.
 
 **Acceptance Criteria**
 
 - Data is up to scale with the amount of data we're inputting
 - Data is sorted by the class and names of students
-
+- MongoDB has the ability to handle very large data sets and works well with Django
 
 **Constraints**
 
@@ -110,11 +114,13 @@ Database must only show the data necessary for a particular user.
 
 - As a teacher, I need to have lists of students in each of my classes that I can choose from.
 - As a teacher, I need to be able to quickly check off students who are present - As a teacher, I need to have a button to send notifications to the parents of absent students.
+- As a developer, I need to make the user interface straightforward
 
 **Acceptance Criteria**
 
 - Teachers find it easy and simple to navigate and use the web app
 - Teachers can quickly send notifications to parents at the press of a button
+- Used Django framework to make the frontend and UI simple and easy for users of the app
 
 **Constraints**
 
@@ -131,11 +137,12 @@ If a teacher is out for a day, the sub needs access to their class.
 - As an administrator, I need to have a way to invite users to the organization’s instance.
 - As an administrator, I need a way to track student truancy
 - As an administrator, I need a way to keep track of student and parent contact information in a secure fashion
+- As a developer must create a system that tracks the truancy levels of students 
 
 **Acceptance Criteria**
 
 - Administrators send invitations to all the teachers of the school to join the system, and teachers successfully join the system
-- 
+- Used Django and MongoDB to create a system to keep track of truancy 
 
 **Constraints**
 

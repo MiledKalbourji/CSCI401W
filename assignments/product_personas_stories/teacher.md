@@ -39,7 +39,7 @@ For middle and high school educators struggling with student truancy, Teacher Ap
   How the Teacher App Helps: Eliza can be doing her busy shifts at Gotham City Hospital, she can have real time notifications whenever Elis is skipping school, benefits the child and the parent because Elis feels like his mother cares and Eliza can feel better connected to her son.
 - **Persona 3**: School District/Administrators (customer/buyer). Jane Doe is an administrator in the Gotham city school district. She has taken on this position in the last year due to her passion for helping students who may come from difficult circumstances succeed in school. She was drawn to the district due to it's below average attendance, which is often a strong suggestion of troubled students. Her goal is to raise the attendance rates in the school district because of the impact that her school had on her growing up in a single parent family and in a community riddled with violence. In her research, Jane found the Teacher App, which promises to promote accountability among students and their parents and improve student attendance.
 - **Persona 4**: Name: Vinny Ucci
-  Age: 35
+  Age: 40
   Grade: High School
   Background: Got his degree in Math 12 years ago and has been a math teacher at Gotham for 10 years
   Behaviors: Vinny is a caring teacher who always makes sure that his students are meeting the curriculum and makes sure to help them whenever they need it

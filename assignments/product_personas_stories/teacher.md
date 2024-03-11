@@ -22,43 +22,42 @@ For middle and high school educators struggling with student truancy, Teacher Ap
 ## Product Personas
 
 - **Persona 1**: Name: Elis Jones
-                  Age: 15
-                  Grade: Sophomore at Gotham High School
-                  Background: Comes from a single-parent household. Elis' mother works two jobs, leaving Elis unsupervised often.
-                  Behaviors: Often will skip class to hang out with friends at the local arcade or mall. Struggles with assignments and does not receive support. No consequences for actions.
-                  Challenges: He feels unnoticed by teachers and disconnected from his single parent who is always busy.
-                  Motivations: Desires more attention and support from adults in his life. Wants to do well but feels overwhelmed.
-                  How Teacher App Helps: Sends real-time notifications to Alex's mother about his truancy, prompting discussions at home. The app also highlights which subjects Alex struggles with, enabling his mother to seek tutoring help.
-- **Persona 2**: Name: Eliza Jones 
-                  Age: 35 
-                  Single Parent, Occuptation: Doctor @Gotham City Hospital, 
-                  Background: Eliza got her doctoral degree while Elis was growing up in the Gotham City School district. When Elis got into the 8th grade, Elis father's Mark passed away from gun violence on the same street Elis grew up. 
-                  Behaviors: Eliza is single parent working 16 hour shifts at the hospital neglecting her son because of her job. 
-                  Challenges: Eliza raising a child by herself, while savings other people's lives, she is drowning in sorrow because she is not nearly invloded in her child life than she wants to be. 
-                  Motivations:To be evolved in her child life. To show Elis that school can be sometimes be challenging but be exciting to learn new material. 
-                  How the Teacher App Helps: Eliza can be doing her busy shifts at Gotham City Hospital, she can have real time notifications whenever Elis is skipping school, benefits the child and the parent because Elis feels like his mother cares and Eliza can feel better connected to her son.
-- **Persona 3**: School District/Administrators (customer/buyer).  Jane Doe is an administrator in the Gotham city school district. She has taken on this position in the last year due to her passion for helping students who may come from difficult circumstances succeed in school. She was drawn to the district due to it's below average attendance, which is often a strong suggestion of troubled students. Her goal is to raise the attendance rates in the school district because of the impact that her school had on her growing up in a single parent family and in a community riddled with violence. In her research, Jane found the Teacher App, which promises to promote accountability among students and their parents and improve student attendance.
-- **Persona 4**:  Name: Vinny Ucci
-                  Age: 35
-                  Grade: High School
-                  Background: Got his degree in Math 12 years ago and has been a math teacher at Gotham for 10 years
-                  Behaviors: Vinny is a caring teacher who always makes sure that his students are meeting the curriculum and makes sure to help them whenever they need it
-                  Challenges: Notices some students have been bunking his classes and are falling behind
-                  Motivations: Wants all his students to succeed and pass his math class
-                  How Teacher App Helps: Vinny can use teacher app to notify the parents/guardians of students that are bunking class. Benefits him because it's a quick and simple process. Parents are notified in real-time and can deal with the issue of student bunking.
+  Age: 15
+  Grade: Sophomore at Gotham High School
+  Background: Comes from a single-parent household. Elis' mother works two jobs, leaving Elis unsupervised often.
+  Behaviors: Often will skip class to hang out with friends at the local arcade or mall. Struggles with assignments and does not receive support. No consequences for actions.
+  Challenges: He feels unnoticed by teachers and disconnected from his single parent who is always busy.
+  Motivations: Desires more attention and support from adults in his life. Wants to do well but feels overwhelmed.
+  How Teacher App Helps: Sends real-time notifications to Alex's mother about his truancy, prompting discussions at home. The app also highlights which subjects Alex struggles with, enabling his mother to seek tutoring help.
+- **Persona 2**: Name: Eliza Jones
+  Age: 35
+  Single Parent, Occuptation: Doctor @Gotham City Hospital,
+  Background: Eliza got her doctoral degree while Elis was growing up in the Gotham City School district. When Elis got into the 8th grade, Elis father's Mark passed away from gun violence on the same street Elis grew up.
+  Behaviors: Eliza is single parent working 16 hour shifts at the hospital neglecting her son because of her job.
+  Challenges: Eliza raising a child by herself, while savings other people's lives, she is drowning in sorrow because she is not nearly invloded in her child life than she wants to be.
+  Motivations:To be evolved in her child life. To show Elis that school can be sometimes be challenging but be exciting to learn new material.
+  How the Teacher App Helps: Eliza can be doing her busy shifts at Gotham City Hospital, she can have real time notifications whenever Elis is skipping school, benefits the child and the parent because Elis feels like his mother cares and Eliza can feel better connected to her son.
+- **Persona 3**: School District/Administrators (customer/buyer). Jane Doe is an administrator in the Gotham city school district. She has taken on this position in the last year due to her passion for helping students who may come from difficult circumstances succeed in school. She was drawn to the district due to it's below average attendance, which is often a strong suggestion of troubled students. Her goal is to raise the attendance rates in the school district because of the impact that her school had on her growing up in a single parent family and in a community riddled with violence. In her research, Jane found the Teacher App, which promises to promote accountability among students and their parents and improve student attendance.
+- **Persona 4**: Name: Vinny Ucci
+  Age: 40
+  Grade: High School
+  Background: Got his degree in Math 12 years ago and has been a math teacher at Gotham for 10 years
+  Behaviors: Vinny is a caring teacher who always makes sure that his students are meeting the curriculum and makes sure to help them whenever they need it
+  Challenges: Notices some students have been bunking his classes and are falling behind
+  Motivations: Wants all his students to succeed and pass his math class
+  How Teacher App Helps: Vinny can use teacher app to notify the parents/guardians of students that are bunking class. Benefits him because it's a quick and simple process. Parents are notified in real-time and can deal with the issue of student bunking.
 
 ## Product Scenarios
 
 ### Product Scenario 1
 
-**Jane Doe** works in the Gotham City School District, which is home to a diverse group of students coming from many different situations.  The student truancy rates have been on the rise over the past several years, and it's her job to find a solution to this problem. Due to their poor performance in this area the district is at risk of losing significant funding, putting many of their programs at risk.  Jane stumbled across Teacher App in her research and saw it as an innovative solution to tracking student truancy and involving parents as part of the solution. After implementing the new app in the district, Jane is seeing widespread improvement in student truancy rates.  Involving the parents as part of the solution was a game changer, allowing for a more connected and supportive community for all of the students in the district.  Parents and teachers alike are satisfied with the results of the new system and hope to see continued success in the district.
+**Jane Doe** works in the Gotham City School District, which is home to a diverse group of students coming from many different situations. The student truancy rates have been on the rise over the past several years, and it's her job to find a solution to this problem. Due to their poor performance in this area the district is at risk of losing significant funding, putting many of their programs at risk. Jane stumbled across Teacher App in her research and saw it as an innovative solution to tracking student truancy and involving parents as part of the solution. After implementing the new app in the district, Jane is seeing widespread improvement in student truancy rates. Involving the parents as part of the solution was a game changer, allowing for a more connected and supportive community for all of the students in the district. Parents and teachers alike are satisfied with the results of the new system and hope to see continued success in the district.
 
-**Vinny Ucci**, A math teacher at Gotham High School has a reoccurring issue with a student named Elis in his period 3 class who refuses to show up to his class and continues to make up excuses as to why they are late or never there. This student in Mr Ucci's class only shows up at most once a week. Mr. Ucci has tried relaying the information to the parents via email and phone calls and has had no success. By using teacher.io Elis's parents/guardians will be notified via text message every time Elis bunks class. After implementing Teacher App, Mr. Ucci notices a significant change in Elis's attendance. The immediate text notifications to Elis's parents resulted in a drastic reduction in his truancy. Elis's parents, now aware of the situation, have had several discussions with Elis about the importance of education and have adjusted their work schedules to spend more time with him. The school counselor is also involved, providing Elis with additional support. Over time, Elis's attendance improves, and he starts participating more actively in class.
-
+**Vinny Ucci**, A math teacher at Gotham High School has a reoccurring issue with a student named Elis in his period 3 class who refuses to show up to his class and continues to make up excuses as to why they are late or never there. This student in Mr Ucci's class only shows up at most once a week. Mr. Ucci has tried relaying the information to the parents via email and phone calls and has had no success. By using teacher.io Elis's parents/guardians will be notified via text message every time Elis bunks class. After implementing Teacher App, Mr. Ucci notices a significant change in Elis's attendance. The immediate text notifications to Elis's parents resulted in a drastic reduction in his truancy. Elis's parents, now aware of the situation, have had several discussions with Elis about the importance of education and have adjusted their work schedules to spend more time with him. The school counselor is also involved, providing Elis with additional support. Over time, Elis's attendance improves, and he starts participating more actively in class. Elis is a lot more happy and his grades have improved greatly.
 
 **Elis Jones** After implementing the Teacher App, a significant change in Elis's attendance and performance occurs. The immediate text notifications to Elis' mother resulted in a drastic change in his truancy. Elis' parents now aware of the situation, have had several discussions with Elis about the importance of education, and have adjusted their work schedules to spend more time with him. The school counselor is also involved, providing Elis with additional support. Over time, Elis's attendance improves, and he starts participating more actively in class. The counselor recommends that Elis play a sport that he likes, which would him another reason to stay committed in his classes.
 
-**Eliza Jones** - Single Parent 35 years old has a child named Elis Jones Eliza has long days working the emergency room, working almost 16 hours days.   Her eldest son Elis just started high school. Within the first month, Eliza had realized that her son Elis has been hanging out with a different group of friends from the previous year. Elis has started to become more distant from his mother and would not be in tune for conversations when he had with Elis. Eliza realized that she needed to know what was going on. The following day Eliza signed up on teacher.io, within the school district to have notifications whenever Elis skipped class. Within the first week Eliza had realized that Eliz had been skipping the last period of class and catching a ride from his new group of friends, before Eliza got home from her 16 hour work day. Thanks to teacher.io Eliza can freely roam her day knowing that Elis is safe in school and learning. 
+**Eliza Jones** - Single Parent 35 years old has a child named Elis Jones Eliza has long days working the emergency room, working almost 16 hours days. Her eldest son Elis just started high school. Within the first month, Eliza had realized that her son Elis has been hanging out with a different group of friends from the previous year. Elis has started to become more distant from his mother and would not be in tune for conversations when he had with Elis. Eliza realized that she needed to know what was going on. The following day Eliza signed up on teacher.io, within the school district to have notifications whenever Elis skipped class. Within the first week Eliza had realized that Eliz had been skipping the last period of class and catching a ride from his new group of friends, before Eliza got home from her 16 hour work day. Thanks to teacher.io Eliza can freely roam her day knowing that Elis is safe in school and learning.
 
 ## User Stories
 
@@ -77,10 +76,9 @@ For middle and high school educators struggling with student truancy, Teacher Ap
 - system logs all information for auditing
 - Utilized a library from Django for sending text notifications
 
-
 **Constraints**
 
-Need to obtain consent to receive text notifications.  Keeping student information private is also critical, and measures need to be taken to ensure that the proper guardians are receiving the notifications
+Need to obtain consent to receive text notifications. Keeping student information private is also critical, and measures need to be taken to ensure that the proper guardians are receiving the notifications
 
 **Comments**
 
@@ -137,16 +135,16 @@ If a teacher is out for a day, the sub needs access to their class.
 - As an administrator, I need to have a way to invite users to the organization’s instance.
 - As an administrator, I need a way to track student truancy
 - As an administrator, I need a way to keep track of student and parent contact information in a secure fashion
-- As a developer must create a system that tracks the truancy levels of students 
+- As a developer must create a system that tracks the truancy levels of students
 
 **Acceptance Criteria**
 
 - Administrators send invitations to all the teachers of the school to join the system, and teachers successfully join the system
-- Used Django and MongoDB to create a system to keep track of truancy 
+- Used Django and MongoDB to create a system to keep track of truancy
 
 **Constraints**
 
-Keeping it secure and private.  Making sure it's accurate. Lack of internet connection.
+Keeping it secure and private. Making sure it's accurate. Lack of internet connection.
 
 ## User Experience
 

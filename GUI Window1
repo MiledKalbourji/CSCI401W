@@ -1,0 +1,49 @@
+/*
+ * File: FrontEnd GUI
+ * The program, once executed, is going to prompt the user, a label for Username/Password with text box and functional button for the login button
+ * Login button automatically pops up a new window 
+ * CSCI401W
+ * Author: Miled Kalbourji
+ */
+
+import tkinter as tk
+
+class MyApp(tk.Tk):
+    def __init__(self):
+        super().__init__()
+        self.title("Login Screen")
+        
+        # Username Frame
+        self.username_frame = tk.Frame(self)
+        self.username_frame.pack(padx=20, pady=10)
+        
+        self.username_label = tk.Label(self.username_frame, text='Username')
+        self.username_label.pack(side=tk.LEFT)
+        self.username_entry = tk.Entry(self.username_frame)
+        self.username_entry.pack(side=tk.LEFT)
+        
+        # Password Frame
+        self.password_frame = tk.Frame(self)
+        self.password_frame.pack(padx=20, pady=10)
+        
+        self.password_label = tk.Label(self.password_frame, text='Password')
+        self.password_label.pack(side=tk.LEFT)
+        self.password_entry = tk.Entry(self.password_frame, show='*')
+        self.password_entry.pack(side=tk.LEFT)
+        
+        # Login Button
+        self.login_button = tk.Button(self, text='Login', command=self.open_main_window)
+        self.login_button.pack(pady=10)
+    
+    #second window
+    def open_main_window(self):
+        # Create a new window for the main application
+        main_window = tk.Toplevel(self)
+        main_window.title("Class List ")
+        # Add widgets to the main application window
+        label = tk.Label(main_window, text="Monday Schduele")
+        label.pack(padx=20, pady=10)
+
+if __name__ == "__main__":
+    app = MyApp()
+    app.mainloop()

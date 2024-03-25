@@ -76,5 +76,6 @@ Here, you'll log key decisions made and the rationale behind them. Here's an exa
 |------------|------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | 2024-02-29 | Chose Django as our frontend and backend framework.   | There are a lot of available resources on Django, and it has the capability to serve as both the front end framework and the back end framework. |
 | 2024-02-29 | Chose MongoDB as our database framework.              | There are a lot of available resources on MongoDB, as well as resources on using it in conjuction with Django. |
+| 2024-03-25 | Changed from Django to Tinker for our front end.      | We were having trouble installing and getting Django working for our GUI, so we changed to Tinker. |
 
 Note: As you progress, keep adding to this log. It will not only help you track your decisions but also offer insights into your evolving

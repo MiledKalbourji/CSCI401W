@@ -1,10 +1,10 @@
-/*
- * File: FrontEnd GUI
- * The program, once executed, is going to prompt the user, a label for Username/Password with text box and functional button for the login button
- * Login button automatically pops up a new window 
- * CSCI401W
- * Author: Miled Kalbourji
- */
+#
+ # File: FrontEnd GUI
+ # The program, once executed, is going to prompt the user, a label for Username/Password with text box and functional button for the login button
+ # Login button automatically pops up a new window, within new window user can save student names with functional buttons of "Save list and Quit".  
+ # CSCI401W
+ # Author: Miled Kalbourji
+ #################################################################################################################################################################G
 
 import tkinter as tk
 from datetime import datetime

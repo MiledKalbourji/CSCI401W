@@ -6,6 +6,7 @@ class LoginWindow(tk.Tk):
     def __init__(self):
         super().__init__()
         self.title("Login")
+        self.configure(bg="blue")#set background color to blue 
         
         self.username = tk.StringVar()
         self.password = tk.StringVar()
@@ -55,6 +56,7 @@ class StudentNameWindow(tk.Toplevel):
         super().__init__(parent)
         self.title("Student Name")
         self.parent = parent
+        self.configure(bg="red") #set background color to red 
 
         # Set window size
         self.geometry("400x300")
@@ -86,10 +88,15 @@ class StudentNameWindow(tk.Toplevel):
         self.student_listbox.pack(padx=10, pady=5, fill=tk.BOTH, expand=True)
 
         self.edit_button = tk.Button(self, text='Edit', command=self.edit_student_name)
-        self.edit_button.pack(pady=5)
+        self.edit_button.pack(side=tk.LEFT,padx=5) # adding the Edit button in the Horiztional position
 
         self.save_button = tk.Button(self, text='Save', command=self.save_student_name)
-        self.save_button.pack(pady=5)
+        self.save_button.pack(side=tk.LEFT,padx=5) # adding the Save button in the Horiztional position
+
+
+        self.delete_button = tk.Button(self, text = 'Delete', command =self.delete_student_name)
+        self.delete_button.pack(side=tk.LEFT, padx=5) # adding the Delete button in the Horiztional position
+
 
         self.quit_button = tk.Button(self, text='Quit', command=self.quit_program)
         self.quit_button.place(x=10, y=10)  # Position the Quit button in the top-left corner
@@ -112,6 +119,29 @@ class StudentNameWindow(tk.Toplevel):
                     self.student_listbox.insert(tk.END, student)
             self.save_student_names_to_file()  # Save updated student names to file
             self.student_entry.delete(0, tk.END)  # Clear entry after adding students
+    
+    def add_toggle_shift_button(self,student_name):
+        # create frame to contain the student name label 
+        student_frame =tk.Frame(self.student_listbox, bg="white")
+        student_frame.pack(fill=tk.X)
+
+        #label to display student name 
+        student_label = tk.Label(student_frame, text=student_name, bg="white")
+        student_label.pack(side=tk.LEFT)
+
+        #toggle shfit button 
+        toggle_shift_button = tk.Button(student_frame, text="Toggle Shift")
+        toggle_shift_button.pack(side=tk.RIGHT, padx=5)
+        
+        # Bind the toggle shift button to a function
+        toggle_shift_button = tk.Button(student_frame, text= "Toggle Shift", command=lambda: self.toggle_shift(student_name))
+        toggle_shift_button.pack(side=tk.RIGHT, padx=5)
+
+    def toggle_shift(self, student_name): 
+        #implement toggle funciontality here 
+        print(f"Toggle Shift for{student_name}") 
+
+
 
     def edit_student_name(self):
         selected_indices = self.student_listbox.curselection()
@@ -178,6 +208,15 @@ class StudentNameWindow(tk.Toplevel):
             messagebox.showinfo("Saved Lists", "\n".join(self.student_names))
         else:
             messagebox.showinfo("Saved Lists", "No saved lists available")
+    
+    def delete_student_name(self):  # implementing the delete function 
+        selected_indices = self.student_listbox.curselection() # allowing the user to click on the delete button
+        if selected_indices: # Once the user clicks on student name following, clicking the delete button it remove the student 
+            for index in selected_indices[ : :-1]: # Reverse order to avoid index issues
+                del self.student_names[index]  # deleting student names  
+                self.student_listbox.delete(index) # removing the student from the text box 
+            self.save_student_names_to_file() # Save updated student names to file
+
 
     def update_student_listbox(self):
         for name in self.student_names:

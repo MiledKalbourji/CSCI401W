@@ -15,6 +15,7 @@ This is a simple Python GUI application built using Tkinter that allows users to
 - Each student name entered is displayed in a listbox.
 - Users can select a student name from the list to edit it.
 - Users can edit the selected student name and save the changes.
+- Users can delete a selected student name from the list.
 - The list of student names is saved to a file ("student_names.txt") for persistence across sessions.
 - Users can view a list of saved student names.
 - Users can quit the application.
@@ -26,8 +27,9 @@ This is a simple Python GUI application built using Tkinter that allows users to
 4. Click the "Add" button to add multiple student names at once (separate names with commas).
 5. Select a student name from the list to edit it.
 6. Edit the student name in the entry field and click the "Save" button to save the changes.
-7. Click the "Saved Lists" button to view a list of saved student names.
-8. Click the "Quit" button to exit the application.
+7. Click the "Delete" button to delete the selected student name from the list.
+8. Click the "Saved Lists" button to view a list of saved student names.
+9. Click the "Quit" button to exit the application.
 
 ## Dependencies
 - Python 3.11.5

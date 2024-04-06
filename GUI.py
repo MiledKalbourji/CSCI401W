@@ -3,7 +3,7 @@
 # Author: Miled kalbourji
 
 import tkinter as tk
-from tkinter import messagebox
+from tkinter import simpledialog, messagebox
 from datetime import datetime
 
 # Define the LoginWindow class, which represents the login window of the application
@@ -80,17 +80,17 @@ class CreateAccountWindow(tk.Toplevel):
         self.last_name_entry = tk.Entry(self)
         self.last_name_entry.pack()
 
-        tk.Label(self, text="Student Name:").pack()
-        self.student_name_entry = tk.Entry(self)
-        self.student_name_entry.pack()
-
-        tk.Label(self, text="Parent Phone Number:").pack()
-        self.parent_phone_entry = tk.Entry(self)
-        self.parent_phone_entry.pack()
-
         tk.Label(self, text="Email:").pack()
         self.email_entry = tk.Entry(self)
         self.email_entry.pack()
+
+         # Create the password frame
+        self.password_frame = tk.Frame(self)
+        self.password_frame.pack(pady=10)
+
+        tk.Label(self.password_frame, text="Password:").pack()
+        self.password_entry = tk.Entry(self.password_frame, show="*")
+        self.password_entry.pack()
 
         tk.Button(self, text="Submit", command=self.submit_account).pack()  # Button to submit the account information
 
@@ -99,26 +99,23 @@ class CreateAccountWindow(tk.Toplevel):
         # Get account information from entry fields
         first_name = self.first_name_entry.get()
         last_name = self.last_name_entry.get()
-        student_name = self.student_name_entry.get()
-        parent_phone = self.parent_phone_entry.get()
+        password = self.password_entry.get()
         email = self.email_entry.get()
 
         # Process account creation (store information, etc.)
         print("Account Information:")
         print("First Name:", first_name)
         print("Last Name:", last_name)
-        print("Student Name:", student_name)
-        print("Parent Phone Number:", parent_phone)
+        print("Password:", password)
         print("Email:", email)
 
         # Close the window
         self.destroy()
 
-# Define the StudentNameWindow class, which represents the window for managing student names
 class StudentNameWindow(tk.Toplevel):
     def __init__(self, parent, day_of_week):
         super().__init__(parent)
-        self.title("Student Name")  # Set the title of the window
+        self.title("Student Name")
         self.parent = parent
         self.configure(bg="red")  # Set background color to red 
 
@@ -132,28 +129,27 @@ class StudentNameWindow(tk.Toplevel):
         self.student_names = []  # List to store student names
         self.load_student_names()  # Load saved student names
 
-        # Frame and widgets for adding student names
         self.student_frame = tk.Frame(self)
         self.student_frame.pack(pady=5)
+
         self.student_label = tk.Label(self.student_frame, text='Student Name', fg='gray')
         self.student_label.pack(side=tk.LEFT)
+
         self.student_entry = tk.Entry(self.student_frame)
         self.student_entry.pack(side=tk.LEFT, padx=5)
         self.student_entry.focus()
+
         self.add_button = tk.Button(self.student_frame, text='Add', command=self.add_students)
         self.add_button.pack(side=tk.LEFT, padx=5)
 
-        # Label and listbox for displaying student names
         self.student_list_label = tk.Label(self, text='Student Names:')
         self.student_list_label.pack()
-        self.student_listbox = tk.Listbox(self)
+
+        self.student_listbox = tk.Listbox(self, bg="lightgreen")  # Set default background color to light green
         self.student_listbox.pack(padx=10, pady=5, fill=tk.BOTH, expand=True)
+        self.student_listbox.bind('<Button-1>', self.toggle_shift)
 
-        # Button for toggling shift status of student names
-        self.toggle_shift_button = tk.Button(self, text='Toggle Shift', command=self.toggle_shift_action)
-        self.toggle_shift_button.pack()
-
-        # Buttons for editing, saving, and deleting student names
+        # Edit, Save, and Delete buttons
         self.edit_button = tk.Button(self, text='Edit', command=self.edit_student)
         self.edit_button.pack(side=tk.LEFT, padx=5)
         self.save_button = tk.Button(self, text='Save', command=self.save_student)
@@ -161,19 +157,17 @@ class StudentNameWindow(tk.Toplevel):
         self.delete_button = tk.Button(self, text='Delete', command=self.delete_student)
         self.delete_button.pack(side=tk.LEFT, padx=5)
 
-        # Button for quitting the program
         self.quit_button = tk.Button(self, text='Quit', command=self.quit_program)
         self.quit_button.pack(pady=5)
 
-        # Button for showing saved lists
         self.saved_lists_button = tk.Button(self, text='Saved Lists', command=self.show_saved_lists)
         self.saved_lists_button.pack(pady=5)
 
         self.update_student_listbox()  # Update the listbox with loaded student names
 
         self.selected_index = None  # To store the index of the selected item for editing
+        self.original_bg_color = None  # To store the original background color of the selected item
 
-    # Method to add student names to the listbox
     def add_students(self):
         students_text = self.student_entry.get()
         if students_text:
@@ -183,55 +177,81 @@ class StudentNameWindow(tk.Toplevel):
                 if student:
                     self.student_names.append(student)
                     self.student_listbox.insert(tk.END, student)
-            self.save_student_names_to_file()  # Save updated student names to file
             self.student_entry.delete(0, tk.END)  # Clear entry after adding students
+    
+    def toggle_shift(self, event):
+        # Clear any existing toggle shift buttons
+        for widget in self.winfo_children():
+            if isinstance(widget, tk.Button) and widget.cget('text') == 'Toggle Shift':
+                widget.destroy()
 
-    # Method to toggle the shift status of a student name
-    def toggle_shift_action(self):
-        # Toggle shift for the selected student name
-        selected_index = self.student_listbox.curselection()
-        if selected_index:
-            index = selected_index[0]
-            # Change background color of selected student name
-            current_color = self.student_listbox.itemcget(index, "bg")
-            new_color = "red" if current_color == "green" else "green"
-            self.student_listbox.itemconfig(index, bg=new_color)
+        # Get the index of the clicked item in the listbox
+        index = self.student_listbox.nearest(event.y)
 
-    # Method to edit a student name
+        # Check if the index is valid
+        if index != -1:
+            # Get the text of the clicked item
+            student_name = self.student_listbox.get(index)
+
+            # Add a toggle shift button next to the selected student name
+            toggle_shift_button = tk.Button(self, text='Toggle Shift')
+            toggle_shift_button.bind('<Button-1>', lambda event, student=student_name: self.toggle_shift_action(student))
+            toggle_shift_button.place(relx=1, rely=0, anchor=tk.NE)
+
+    def toggle_shift_action(self, student_name):
+        # Toggle shift for the selected student
+        print(f"Toggle Shift for {student_name}")
+        # Find the index of the student name in the listbox
+        index = self.student_listbox.get(0, tk.END).index(student_name)
+        # Get the current background color of the student name
+        current_bg = self.student_listbox.itemcget(index, 'bg')
+        # Toggle the background color
+        new_bg = 'lightgreen' if current_bg == 'red' else 'red'
+        # Change the background color of the student name
+        self.student_listbox.itemconfig(index, {'bg': new_bg})
+        
     def edit_student(self):
-        # Edit the selected student name
-        self.selected_index = self.student_listbox.curselection()
-        if self.selected_index:
-            index = self.selected_index[0]
-            new_name = self.student_entry.get()
+        # Get the index of the selected item in the listbox
+        index = self.student_listbox.curselection()
+        if index:
+            index = int(index[0])
+            student_name = self.student_listbox.get(index)
+            # Get the current background color of the selected item
+            self.original_bg_color = self.student_listbox.itemcget(index, 'bg')
+            # Ask for the new student name
+            new_name = tk.simpledialog.askstring("Edit Student", "Enter new name:", initialvalue=student_name)
             if new_name:
-                self.student_names[index] = new_name
                 self.student_listbox.delete(index)
                 self.student_listbox.insert(index, new_name)
-                self.save_student_names_to_file()  # Save updated student names to file
-                self.selected_index = None
-                self.student_entry.delete(0, tk.END)  # Clear entry after editing
+                # Reset the background color to its original state
+                self.student_listbox.itemconfig(index, {'bg': self.original_bg_color})
+                self.student_names[index] = new_name
 
-    # Method to delete a student name
+    def save_student(self):
+        # Get the index of the selected item in the listbox
+        index = self.student_listbox.curselection()
+        if index:
+            index = int(index[0])
+            student_name = self.student_listbox.get(index)
+            # Save the student name to a file
+            with open("student_names.txt", "a") as file:
+                file.write(student_name + "\n")
+            messagebox.showinfo("Save", "Student name saved successfully.")
+
     def delete_student(self):
-        # Delete the selected student name
-        self.selected_index = self.student_listbox.curselection()
-        if self.selected_index:
-            index = self.selected_index[0]
+        # Get the index of the selected item in the listbox
+        index = self.student_listbox.curselection()
+        if index:
+            index = int(index[0])
+            student_name = self.student_listbox.get(index)
+            # Remove the student name from the list and listbox
             del self.student_names[index]
             self.student_listbox.delete(index)
-            self.save_student_names_to_file()  # Save updated student names to file
-            self.selected_index = None
+            messagebox.showinfo("Delete", "Student name deleted successfully.")
 
-    # Method to save the edited student name
-    def save_student(self):
-        self.edit_student()
-
-    # Method to quit the program
     def quit_program(self):
         self.parent.destroy()  # Destroy the main window to quit the program
 
-    # Method to show saved lists
     def show_saved_lists(self):
         # Show a messagebox with the saved lists
         if self.student_names:
@@ -239,12 +259,10 @@ class StudentNameWindow(tk.Toplevel):
         else:
             messagebox.showinfo("Saved Lists", "No saved lists available")
 
-    # Method to update the listbox with loaded student names
     def update_student_listbox(self):
         for name in self.student_names:
             self.student_listbox.insert(tk.END, name)
 
-    # Method to load student names from file
     def load_student_names(self):
         try:
             with open("student_names.txt", "r") as file:
@@ -252,13 +270,6 @@ class StudentNameWindow(tk.Toplevel):
         except FileNotFoundError:
             pass
 
-    # Method to save updated student names to file
-    def save_student_names_to_file(self):
-        # Save updated student names to file
-        with open("student_names.txt", "w") as file:
-            file.write("\n".join(self.student_names))
-
-# Entry point of the application
 if __name__ == "__main__":
-    app = LoginWindow()  # Create an instance of the login window
-    app.mainloop()  # Start the main event loop
+    app = LoginWindow()
+    app.mainloop()

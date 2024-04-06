@@ -8,7 +8,7 @@ This application is a simple Student Management System that allows users to:
 - Save the list of student names to a file.
 
 Files:
-- Practice Test.py: The main Python script containing the implementation of the Student Management System.
+- GUI.py: The main Python script containing the implementation of the Student Management System.
 - student_names.txt: A text file used to store the list of student names.
 
 Usage:

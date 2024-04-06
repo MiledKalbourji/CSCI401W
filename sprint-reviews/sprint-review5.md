@@ -24,7 +24,7 @@
 
 *(Reflect on the process, decisions made, tools used, and the challenges encountered. Discuss any insights that the team can take forward into the next sprint.)*
 
-1. **Lesson 1**:   Lesson learned is always use different tools, and have them at your disposal. Next time instead of researching just one of the tools at a time, research mutliple tools at a time.  At First I thought about using Kivy, another powerful Python interface, that is great for mobile applications. After a very few crucial days trying to install Kivy, my problems could not go away. I used Tkinter and got away with the GUI with proper fucntionality.
+1. **Lesson 1**:   Lesson learned is always use different tools, and have them at your disposal. Next time instead of researching just one of the tools at a time, research mutliple tools at a time.  At First I thought about using Kivy, another powerful Python interface, that is great for mobile applications. After a very few crucial days trying to install Kivy, my problems could not go away. I used Tkinter and got away with the GUI with proper fucntionality. (miled)
 
 2. **Lesson 2**: 
    
@@ -41,7 +41,7 @@
 
 *(Celebrate your successes! List major or minor accomplishments, breakthroughs, or moments of clarity.)*
 
-1. **Win 1**: My major win is with the GUI. Getting the functionality of toggle shift button to work.  Then having the team to celebrate the sucess was stepping stone to motoivate to drive this project to its final stages. 
+1. **Win 1**: My major win is with the GUI. Getting the functionality of toggle shift button to work.  Then having the team to celebrate the sucess was stepping stone to motoivate to drive this project to its final stages. (miled)
 
 2. **Win 2**: 
 

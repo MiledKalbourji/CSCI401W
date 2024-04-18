@@ -1,7 +1,3 @@
-Spring Semester Class at Rhode Island College Software Engineering of all Assignemnts and Final Project
-
-Documentation:
-
 teacher_project/
 ├── teacher/                    # Django project directory
 │   ├── __init__.py
@@ -16,10 +12,3 @@ teacher_project/
     ├── serializers.py          # Serializers for API endpoints
     ├── urls.py                 # URL routing for API endpoints
     └── views.py                # Views handling API logic
-To start up on Mac: these 3 commands
-
-source env/bin/activate
-
-cd Teacher
-
-python manage.py runserver

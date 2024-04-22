@@ -1,4 +1,65 @@
+
+.button {
+    background-color: #007bff; /* Blue background color for buttons */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Input styles */
+.input {
+    padding: 5px;
+    width: 100%;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+/* Label styles */
 .right-align-label {
     float: right;
-    margin-left: 10px; /* Adjust as needed */
+    margin-left: 10px;
+}
+
+/* Window styles */
+.login-window-style {
+    background-color: #007bff; /* Blue background color for login window */
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: none;
+}
+
+.create-account-window-style {
+    background-color: yellow; /* Yellow background color for create account window */
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: none;
+}
+
+.student-name-window-style {
+    background-color: red; /* Red background color for student name window */
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: none;
+}
+
+/* Visible window styles */
+.login-window-visible {
+    display: block;
+}
+
+.create-account-window-visible {
+    display: block;
+}
+
+.student-name-window-visible {
+    display: block;
 }

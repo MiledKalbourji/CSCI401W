@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'djongo',
+    'accounts',
     'attendance.apps.AttendanceConfig',
     'django.contrib.admin',
     'django.contrib.auth',

@@ -8,7 +8,7 @@ app = dash.Dash(__name__, suppress_callback_exceptions=True, prevent_initial_cal
 
 # Define the layout with two buttons and placeholder divs for login and create account windows
 app.layout = html.Div([
-    html.H1("Welcome"),
+    html.H1("Welcome To the Teacher App"),
     html.Button('Login', id='login-button', n_clicks=0),
     html.Button('Create Account', id='create-account-button', n_clicks=0),
     html.Div(id='login-window', className='login-window'),  # Placeholder for login window content

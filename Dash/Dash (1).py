@@ -11,10 +11,10 @@ app.layout = html.Div([
     html.H1("Welcome"),
     html.Button('Login', id='login-button', n_clicks=0),
     html.Button('Create Account', id='create-account-button', n_clicks=0),
-    html.Div(id='login-window'),  # Placeholder for login window content
-    html.Div(id='create-account-window'),  # Placeholder for create account window content
+    html.Div(id='login-window', className='login-window'),  # Placeholder for login window content
+    html.Div(id='create-account-window', className='create-account-window'),  # Placeholder for create account window content
     html.Div(id='output-login'),  # Placeholder for login output
-    html.Div(id='student-name-window'),  # Placeholder for student name window content
+    html.Div(id='student-name-window', className='student-name-window'),  # Placeholder for student name window content
     html.Div(id='output-submit-account'),  # Placeholder for account submission output
 ])
 
@@ -31,7 +31,7 @@ def display_login_window(n_clicks):
             dcc.Input(id='username', type='text', value=''),
             html.Label('Password'),
             dcc.Input(id='password', type='password', value=''),
-            html.Button('Login', id='submit-login-button'),
+            html.Button('Login', id='submit-login-button', className='button button-login')
         ])
 # Define callback to handle login
 @app.callback(
@@ -134,7 +134,7 @@ def display_create_account_window(n_clicks):
             dcc.Input(id='email', type='email'),
             html.Label('Password'),
             dcc.Input(id='new-password', type='password'),
-            html.Button('Submit', id='submit-account-button')
+            html.Button('Submit', id='submit-account-button', className='button button-create-account')
         ])
 
 # Define callback to handle submission of account creation and redirect to login popup

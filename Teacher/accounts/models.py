@@ -1,27 +1,28 @@
 # accounts/models.py
 
-from django.contrib.auth.models import AbstractUser
 from django.db import models
+from django.contrib.auth.models import AbstractUser
 
 class CustomUser(AbstractUser):
-    first_name = models.CharField(max_length=100)
-    last_name = models.CharField(max_length=100)
-    email = models.EmailField(unique=True)
     
-    # Password field is automatically included by AbstractUser
+    id = models.AutoField(primary_key=True)
+    # Since AbstractUser already includes fields like username, first_name, last_name, and email,
+    # you may not need to redefine them unless you have specific requirements.
+    # If you do redefine them, ensure they align with your application's needs.
 
-    # Change related_name attributes to avoid clashes with the default User model
+    # You can add additional fields here if needed.
+    # Example:
+    # additional_field = models.CharField(max_length=100)
+    
+    # If you don't need to customize related_name, you can omit it.
+    # If you do need it, make sure it's unique and doesn't conflict with other models.
     groups = models.ManyToManyField(
         'auth.Group',
-        related_name='custom_user_groups',  # Unique related_name to avoid clash
-        related_query_name='custom_user_group',
         blank=True,
         verbose_name='groups',
     )
     user_permissions = models.ManyToManyField(
         'auth.Permission',
-        related_name='custom_user_permissions',  # Unique related_name to avoid clash
-        related_query_name='custom_user_permission',
         blank=True,
         verbose_name='user permissions',
     )

@@ -6,15 +6,16 @@ from rest_framework.decorators import api_view
 from rest_framework.authtoken.models import Token
 from django.contrib.auth import authenticate, logout  # Import logout
 
-from .serializers import UserSerializer, UserCreateSerializer
+from .serializers import UserCreateSerializer
 
 @api_view(['POST'])
 def register_user(request):
     serializer = UserCreateSerializer(data=request.data)
     if serializer.is_valid():
         user = serializer.save()
+        print(type(user)) 
         if user:
-            token = Token.objects.create(user=user)
+            #token, created = Token.objects.get_or_create(user=user)
             return Response(serializer.data, status=status.HTTP_201_CREATED)
     return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 

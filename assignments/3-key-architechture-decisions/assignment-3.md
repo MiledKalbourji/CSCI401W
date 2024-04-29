@@ -40,7 +40,7 @@ Teacher App is an app designed to track student truancy through attendance utili
 
 ### 3.1. Frontend Framework
 
-We will be using Django. The framework is compatible with Python which provides a wide variety of libraries. Our instructor is also familiar with it which will provide a helpful resource if we run into obstacles.  Choosing Django also allows us to use one framework for both the front end and the back end. 
+We will set up a simple HTML front end.  It is simple to connect to Django, and all of our team members have experience coding in HTML. There are several other frameworks out there that we had trouble connecting which is why we ultimately ended up here.
 
 ### 3.2. Backend Framework
 
@@ -77,5 +77,7 @@ Here, you'll log key decisions made and the rationale behind them. Here's an exa
 | 2024-02-29 | Chose Django as our frontend and backend framework.   | There are a lot of available resources on Django, and it has the capability to serve as both the front end framework and the back end framework. |
 | 2024-02-29 | Chose MongoDB as our database framework.              | There are a lot of available resources on MongoDB, as well as resources on using it in conjuction with Django. |
 | 2024-03-25 | Changed from Django to Tinker for our front end.      | We were having trouble installing and getting Django working for our GUI, so we changed to Tinker. |
+| 2024-04-15 | Changed from Tkinter to Dash for our front end.       | We found out that Tkinter wasn't able to be used for a web app which is what we were hoping to develop.  Dash is another Python framework so we figured it would be simple to make the switch. |
+| 2024-04-25 | Changed from Dash to a simple HTML GUI                | We were not able to connect dash to our Django because of a Flask implementation, so we decided to create a simple HTML GUI due to the time constraints. |
 
 Note: As you progress, keep adding to this log. It will not only help you track your decisions but also offer insights into your evolving

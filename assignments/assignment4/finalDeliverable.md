@@ -27,13 +27,19 @@ Reflect on your journey in learning software engineering through concrete scenar
 1. **Team Collaboration Approach:**
    Describe how your team used tools like Slack and Trello to coordinate tasks. Share an example of how assigning tasks in Trello helped streamline your group projects and fostered effective communication.
 
-2. **Challenges and Overcoming Them:**
+   (Miled)- Trello helped me with remebering what I needed to do for the weekend. For example, if I wanted to to work on something over the weekend instead of texting the chat about what everyone did I can infer better and actually know what needs to be done, what already has been done, what is going to get done. Better flow to work more efficiently. 
+
+3. **Challenges and Overcoming Them:**
    Recall a specific challenge, like debugging a code issue together. Explain how you collaborated to identify the bug's source and successfully resolved it. This experience showcases your problem-solving and teamwork skills.
 
-3. **Accomplishments and Pride:**
+   (Miled)- Throughout the semester I was thrown with many challenges, like the languages aspect. Even though we used the extensive library of Python, I to learn the strucutre of Tkinter, of how the classes and def correlate to each other. With Dash that was even more confusing because it was a mix of python and a bit HTML mixed into one. I defintetly learned that if there is will power to make a aspect of your task/project work then anyone can conquer any lanauge. 
+
+5. **Accomplishments and Pride:**
    Highlight a feature you contributed to, such as creating a login system. Discuss how your combined skills enabled the team to deliver a functional feature that enhances user experience.
 
-4. **Learning and Growth:**
+(Miled)- If we did not decide that my implementation would not work, I built this beautiful interface in Tkinter that took up most of the semseter. My most proud moment is how the functionaility of the project worked, everything worked so seamlessly and beautiful,  but we could not as team intergrate what I built. 
+
+6. **Learning and Growth:**
    Provide an example of how you applied a concept learned in class to a practical scenario. Describe how you used version control (like Git) to collaborate on a coding assignment, improving code organization and collaboration.
 
 ## Product Showcase
@@ -41,6 +47,7 @@ Reflect on your journey in learning software engineering through concrete scenar
 ### Elevator Pitch
 
 Summarize your product's value proposition with relatable examples. For instance, explain how your app's streamlined user interface improves navigation for users, enhancing their overall experience.
+(Miled)- Our app is streamlined the user interface and how seamlessly connects the user accounts automatically saves. As well as with a clean UI, teachers can navigate the software and easily understand the program.  
 
 ### Product Demo
 
@@ -49,11 +56,13 @@ Share simple examples of your product's functionality:
 - **Example 1:** Demonstrate how users can browse product categories using a straightforward navigation bar.
 - **Example 2:** Showcase how your cybersecurity-focused feature detects and alerts users about potentially harmful links.
 
+(Miled)- Teachers can create a account, and then log in that account to make student list. With a toggle shift to indicit that the student is either in or out of the classroom. 
 ### Technical Architecture Overview
 
 Simplify a technical concept with an example:
 
 - **Example:** Explain the client-server architecture by comparing it to a waiter taking orders (client) and a kitchen preparing food (server).
+  (Miled)- RESTful API waits for the waiters to come into the kitchen to prepare the food. Meaning the RESTful API is listening on the teacher feedback to create account and login into the account, in order to store them into the database (Mongodb)
 
 ### Codebase Exploration
 

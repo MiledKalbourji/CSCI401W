@@ -50,18 +50,12 @@ function submitLogin() {
     let storedPassword = localStorage.getItem('password');
 
     if (username === storedUsername && password === storedPassword) {
-        document.getElementById('login-feedback').innerHTML = 'Login successful!';
-        document.getElementById('student-name-window').style.display = 'block';
-        document.getElementById('login-window').style.display = 'none';
-        document.getElementById('login-button').style.display = 'none';
-        document.getElementById('create-account-button').style.display = 'none';
-        document.getElementById('sign-out-button').style.display = 'block'; // Show sign-out button
-        document.getElementById('save-students-button').style.display = 'block'; // Show the Save Students button
+        localStorage.setItem('currentUser', username); // Store current user
+        window.location.href = 'attendance.html'; // Redirect to the attendance page
     } else {
         document.getElementById('login-feedback').innerHTML = 'Invalid username or password!';
     }
 }
-
 
 // Handle account creation functionality
 function submitAccount() {
@@ -90,79 +84,5 @@ function addStudents() {
     document.getElementById('student-names-input').value = ''; // Clear the input field after adding
 }
 
-function addStudent(name) {
-    if (name) {
-        let listDiv = document.getElementById('student-list-div');
-        let div = document.createElement('div');
-        div.classList.add('student');
-
-        let nameLabel = document.createElement('span');
-        nameLabel.textContent = name;
-        nameLabel.className = 'student-name';
-        div.appendChild(nameLabel);
-
-        let editButton = document.createElement('button');
-        editButton.textContent = 'Edit';
-        editButton.onclick = function() {
-            if (editButton.textContent === 'Edit') {
-                let input = document.createElement('input');
-                input.type = 'text';
-                input.value = nameLabel.textContent;
-                div.insertBefore(input, nameLabel);
-                div.removeChild(nameLabel);
-                editButton.textContent = 'Save';
-            } else {
-                nameLabel.textContent = div.querySelector('input').value;
-                div.insertBefore(nameLabel, div.querySelector('input'));
-                div.removeChild(div.querySelector('input'));
-                editButton.textContent = 'Edit';
-            }
-        };
-        div.appendChild(editButton);
-
-        let deleteButton = document.createElement('button');
-        deleteButton.textContent = 'Delete';
-        deleteButton.onclick = function() {
-            div.remove();
-        };
-        div.appendChild(deleteButton);
-
-        let toggleButton = createToggleButton();
-        div.appendChild(toggleButton);
-
-        listDiv.appendChild(div);
-    }
-}
-
-function createToggleButton() {
-    let toggleButton = document.createElement('button');
-    toggleButton.textContent = 'Absent'; // Default state
-    toggleButton.classList.add('toggle-button', 'absent');
-    toggleButton.onclick = function() {
-        toggleButton.textContent = (toggleButton.textContent === 'Present' ? 'Absent' : 'Present');
-        toggleButton.classList.toggle('present');
-        toggleButton.classList.toggle('absent');
-    };
-    return toggleButton;
-}
-
-function saveStudents() {
-    let students = [];
-    document.querySelectorAll('.student .student-name').forEach(function(elem) {
-        students.push(elem.textContent);
-    });
-    localStorage.setItem('students', JSON.stringify(students));
-    alert('Students saved successfully!');
-}
-
-// Function to load students from localStorage on page load
-function loadStudents() {
-    let students = JSON.parse(localStorage.getItem('students'));
-    if (students) {
-        students.forEach(function(name) {
-            addStudent(name);
-        });
-    }
-}
 
 loadStudents(); // Load students when the page loads

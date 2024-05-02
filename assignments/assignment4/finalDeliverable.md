@@ -117,4 +117,6 @@ Emily - We learned about using tools to help us stay organized, such as version 
 
 Emily - I was unfamiliar with many of the tools that we utilized in class, and the software development life cycle as a whole.  Throughout the semester, I had to learn about using Git and the different frameworks we were using in our project.  I did my best to look up articles and Youtube videos to help me undrstand the different things I was doing, and I also did my best to utilize the knowledge of my teammates in trying to learn these new systems.  When each of us found a good article or video, we shared it to the group so that we could all add to our understanding.
 
+David - I was very unfamiliar with Django and backend work since I don't have much experience with both. Throughout the semester watching YouTube videos, and reading up on Django documentation and StackOverflow were great resources that helped me to grasp a better understanding. I now have a better understanding of how Django works and is structured. I have the confidence to be able to look at a Django project and have a grasp on how it works.
+
 ---

@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function signOut() {
     localStorage.clear(); // Clears all data stored in localStorage
-    window.location.href = 'home.html'; // Redirects to the login page
+    window.location.href = '/accounts/login/'; // Redirects to the login page
 }
 
 // Attach the signOut function directly to the sign-out button event

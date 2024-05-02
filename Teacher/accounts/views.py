@@ -39,4 +39,4 @@ def register_user(request):
 @api_view(['POST'])
 def logout_user(request):
     logout(request)
-    return Response({'message': 'Successfully logged out'}, status=status.HTTP_200_OK)
+    return redirect('login_user') 

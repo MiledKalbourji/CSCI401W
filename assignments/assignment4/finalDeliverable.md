@@ -31,6 +31,8 @@ Reflect on your journey in learning software engineering through concrete scenar
 
    Emily - We were able to utilize both Teams and Trello to keep each other organized and accountable.  While we didn't use Trello to the full extent that we could and should have, it provided an extra tool to help us track what needed to be done and by whom.  We also used teams to communicate with each other in order to have a better understanding of what each person was working on when we weren't diligent about updating Trello.  Teams also provided us with a platform to bounce ideas off of each other when we were working on a particular component, whether we were having trouble with implementation or just unsure of what direction to go.
 
+   David - 
+
 3. **Challenges and Overcoming Them:**
    Recall a specific challenge, like debugging a code issue together. Explain how you collaborated to identify the bug's source and successfully resolved it. This experience showcases your problem-solving and teamwork skills.
 

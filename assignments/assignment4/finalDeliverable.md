@@ -107,24 +107,32 @@ Answer the following questions with practical examples:
 
 1. **Team Collaboration Skills:** Reflect on a time when coordinating with team members improved a project's outcome or efficiency.
 
-Emily - Getting together with the team a couple of times each week helped us to all stay on the same page and moving in the same direction.  The moments where we stopped communicating with each other during the semester were the moments that we had the most trouble.
+Emily - Getting together with the team a couple of times each week helped us to all stay on the same page and moving in the same direction.  The moments where we stopped communicating with each other during the semester were the moments that we had the most trouble. 
+
+Miled- Picking a time at the beginning of the semester was a genius move. Meaning we all had to stick with the schedule that choose for ourself. Most of our teammates stay on top of that scheudle. 
 
 2. **Problem-Solving Abilities:** Share a situation where you had to troubleshoot a technical issue and how you approached the problem-solving process.
 
-Emily - When we had to decide which direction to go with our front end, we got in a meeting and I laid out all of the options that we had, and we all discussed which direction we wanted to go in.  There were several different sides to each option we had, and we were able to talk through them and decide on the option that was going to be the best in our circumstance.
+Emily - When we had to decide which direction to go with our front end, we got in a meeting and I laid out all of the options that we had, and we all discussed which direction we wanted to go in.  There were several different sides to each option we had, and we were able to talk through them and decide on the option that was going to be the best in our circumstance. 
+
+Miled- Telling my team through out the semester about the functionality of the code, within mintutes of each meetings updating to its full functionality. 
 
 3. **Contributions to the Project:** Discuss a specific task you contributed to and how your involvement positively impacted the project's development.
 
 Emily - I was in charge of keeping the team on track and organized.  I took care of taking meeting notes at all of our meetings, making sure that we completed sprint reviews when they were needed (though I wasn't always successful), and submitting written assignments.  I also kept up with the assignments throughout the semester, making sure that they stayed updated when we made changes.  I also set up trello cards, however as the semester went on and we started talking more I was less diligent about keeping the board updated as we were all on the same page.
 
+Miled- I contributed in the project of having a frontend in Tkinter. This frontend within our prestation was our stepping stone into the project. When Mohammed had to build the HTML frontend rapdily having the Tkinter Frontend already being there built as a good template really helped getting the frontend built in HTML. 
+
 4. **Applied Knowledge:** Describe a technical concept learned in class that you've used in your project, highlighting its practical relevance.
 
-Emily - We learned about using tools to help us stay organized, such as version control in Git and to-do lists in the Trello environment.  In learning these tools, I learned different ways of collaboration and the importance of being able to communicate clearly and concisely to let other team members know what I've been working on, whether it's version control in a document on Git or a to-do list item in Trello.
+Emily - We learned about using tools to help us stay organized, such as version control in Git and to-do lists in the Trello environment.  In learning these tools, I learned different ways of collaboration and the importance of being able to communicate clearly and concisely to let other team members know what I've been working on, whether it's version control in a document on Git or a to-do list item in Trello. 
 
 5. **Adaptability and Learning:** Provide an example of a challenge you faced that required learning a new skill or concept, and how you adapted to overcome it.
 
 Emily - I was unfamiliar with many of the tools that we utilized in class, and the software development life cycle as a whole.  Throughout the semester, I had to learn about using Git and the different frameworks we were using in our project.  I did my best to look up articles and Youtube videos to help me undrstand the different things I was doing, and I also did my best to utilize the knowledge of my teammates in trying to learn these new systems.  When each of us found a good article or video, we shared it to the group so that we could all add to our understanding.
 
 David - I was very unfamiliar with Django and backend work since I don't have much experience with both. Throughout the semester watching YouTube videos, and reading up on Django documentation and StackOverflow were great resources that helped me to grasp a better understanding. I now have a better understanding of how Django works and is structured. I have the confidence to be able to look at a Django project and have a grasp on how it works.
+
+Miled- Dash I had to learn with a new software within a week, with Dash being a mix between of html and python function made it very diffcult. 
 
 ---

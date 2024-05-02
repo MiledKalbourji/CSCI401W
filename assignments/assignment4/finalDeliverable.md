@@ -76,7 +76,7 @@ Share simple examples of your product's functionality:
 
 - **Example 1:** Teachers can create or log in to their account and create their list of students.
 - **Example 2:** With a toggle shift, teachers can indicate that a student is present or absent from the classroom.
-- **Example 3:** The data from a teacher account is saved in a database, and is accessible every time a teacher logs in.
+- **Example 3:** The user's profiles are saved to the Database
 
 ### Technical Architecture Overview
 

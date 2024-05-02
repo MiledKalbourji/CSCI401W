@@ -16,7 +16,7 @@
 
         <div id="login-window" class="login-window" style="display:none;">
             <h2>Login</h2>
-            <form method="post" action="{% url 'login_user' %}">
+            <form id="login-form" method="post" action="{% url 'login_user' %}">
                 {% csrf_token %}
                 <label for="username">Username:</label>
                 <input type="text" id="username" name="username">
@@ -32,7 +32,7 @@
             <form method="post" action="{% url 'register_user' %}">
                 {% csrf_token %}
                 <label for="username">Username:</label>
-                <input type="text" id="username" name="username">
+                <input type="text" id="new-username" name="username"> <!-- Changed ID to 'new-username' for uniqueness -->
                 <label for="first-name">First Name:</label>
                 <input type="text" id="first-name" name="first_name">
                 <label for="last-name">Last Name:</label>

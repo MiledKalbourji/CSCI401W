@@ -1,9 +1,13 @@
 from rest_framework import status, viewsets
 from rest_framework.response import Response
-
+from django.shortcuts import render
 from .models import Attendance
 from .serializers import AttendanceSerializer
 
+
+
+def attendance_page(request):
+    return render(request, 'attendance/attendance.html')
 
 class AttendanceViewSet(viewsets.ModelViewSet):
     queryset = Attendance.objects.all()
@@ -28,4 +32,3 @@ class AttendanceViewSet(viewsets.ModelViewSet):
         instance = self.get_object()
         instance.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
-

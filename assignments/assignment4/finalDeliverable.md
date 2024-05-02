@@ -33,12 +33,18 @@ Reflect on your journey in learning software engineering through concrete scenar
 
    David - Teams was a great tool to help communicate and organize our project. I used teams a lot to update my teammates on  the source code and the troubles I was facing. I definitely should've used Trello more to help organize myself and the tasks that I had to do for the project. Discord was also really useful for team meetings and communication. As a team, we had a great start and struggled a little at the end but we were still able to push through thanks to our strong communication.
 
+  Mohammed -  Teams helped communicate and keep organized. It allowed everyone to be on the same page for the most part. Early into the semester, Trello was helpful but as time went on most of our communication was through Discord and teams. 
+
+
 3. **Challenges and Overcoming Them:**
    Recall a specific challenge, like debugging a code issue together. Explain how you collaborated to identify the bug's source and successfully resolved it. This experience showcases your problem-solving and teamwork skills.
 
    Miled - Throughout the semester I was thrown with many challenges, like the language aspect. Even though we used the extensive library of Python, I had to learn the structure of Tkinter, of how the classes and functions correlate to each other. With Dash that was even more confusing because it was a mix of Python and a bit HTML mixed into one. I definitely learned that if there is will power to make an aspect of your task/project work then anyone can conquer any language. 
 
    Emily - We had several struggles with our choices in front end frameworks.  Though I worked mostly to help keep everyone organized and on task, I did my best to think outside of the box and suggest points where we could shift gears a little bit.  Throughout the process of finalizing our front end, we talked through what we were thinking and came up with a solution.
+
+   Mohammed - The biggest challenge we went through was getting a front-end design for a web app that was compatible with our back end and database. We wanted to get a simple functionality with the back end, front end, and database to work before we moved on and started adding features such as push notifications. Initially, we had agreed to Django for the front end assuming it would pair nicely with a Django back end. Miled explored some other compatible front-end frameworks that were coded in Python because as a group we were trying to stick to Python for language. The framework he ended up going with was for desktop apps and was not easy for David to pair with the backend. We also tried using Dash which was recommended by AI to pair easily, but it utilizes Flask which gave us trouble as well. I realized that time was ticking and decided to do a simple HTML/CSS form with Javascript in case we would not be able to get Dash to work with our backend apps. This ended up being a lifeline for our project and what we used. 
+
 
 5. **Accomplishments and Pride:**
    Highlight a feature you contributed to, such as creating a login system. Discuss how your combined skills enabled the team to deliver a functional feature that enhances user experience.
@@ -47,7 +53,9 @@ Reflect on your journey in learning software engineering through concrete scenar
 
    Emily - I, with the input of the team, worked to make sure that all of our deliverables were complete and submitted on time.  I also did my best to support the others as much as I could when they ran into roadblocks and researched ways to get things working together.
 
-6. **Learning and Growth:**
+   Mohammed - I’m happy with how easily I was able to implement a database into MongoDB using excel. This also allowed me and David to have more time to focus on the issues with the libraries when trying to connect the database and back end. I am also proud of the HTML frontend I was able to create on short notice. This allowed us to be able to have a visual aspect to pair with the back end and database. 
+
+7. **Learning and Growth:**
    Provide an example of how you applied a concept learned in class to a practical scenario. Describe how you used version control (like Git) to collaborate on a coding assignment, improving code organization and collaboration.
 
    Emily - We implemented the Agile development life cycle throughout the semester, and through that cycle we took an iterative approach to our program.  Due to some challenges faced toward the end of the semester we weren't able to implement all of the features that we were hoping to, but when taking an iterative approach you are still left with a complete program, even if it doesn't have all of the functionality that we were hoping for.  

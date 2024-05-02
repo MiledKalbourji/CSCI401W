@@ -40,4 +40,3 @@ def register_user(request):
 def logout_user(request):
     logout(request)
     return Response({'message': 'Successfully logged out'}, status=status.HTTP_200_OK)
-

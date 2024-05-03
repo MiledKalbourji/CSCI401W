@@ -87,13 +87,13 @@ Share simple examples of your product's functionality:
 Simplify a technical concept with an example:
 
 - **Example:** Explain the client-server architecture by comparing it to a waiter taking orders (client) and a kitchen preparing food (server).
-  The RESTful API is listening for the teacher feedback (client placing an order) to create account and login into the account, in order to send the information into the database (Mongodb), like a waiter submitting a food order to the chef.  The requested information (food) is then returened to the teacher (client).
+  The RESTful API is listening for the teacher feedback (client placing an order) to create an account and login into the account, in order to send the information into the database (MongoDB), like a waiter submitting a food order to the chef.  The requested information (food) is then returned to the teacher (client).
 
 ### Codebase Exploration
 
 Illustrate a coding concept with a relatable analogy:
 
-- **Example:** Creating a program is like making a peanut butter and jelly sandwich.  Each component, the bread, the peanut butter, and the jelly all need to be made seperately and then put together.  In a program, you need to create a front end, a backend with an API, and in our case, a database.  Each of these components was set up with different frameworks, and once we had each working, we were able to tie them all together like a delicious peanut butter and jelly trifecta.
+- **Example:** Creating a program is like making a peanut butter and jelly sandwich.  Each component, the bread, the peanut butter, and the jelly all need to be made separately and then put together.  In a program, you need to create a front end, a backend with an API, and in our case, a database.  Each of these components was set up with different frameworks, and once we had each working, we were able to tie them all together like a delicious peanut butter and jelly trifecta.
 
 ### Access Your Work
 
@@ -111,32 +111,41 @@ Answer the following questions with practical examples:
 
 1. **Team Collaboration Skills:** Reflect on a time when coordinating with team members improved a project's outcome or efficiency.
 
-Emily - Getting together with the team a couple of times each week helped us to all stay on the same page and moving in the same direction.  The moments where we stopped communicating with each other during the semester were the moments that we had the most trouble. 
+Emily - Getting together with the team a couple of times each week helped us all stay on the same page and move in the same direction.  The moments when we stopped communicating with each other during the semester were the moments that we had the most trouble. 
 
-Miled- Picking a time at the beginning of the semester was a genius move. Meaning we all had to stick with the schedule that choose for ourself. Most of our teammates stay on top of that scheudle. 
+Miled- Picking a time at the beginning of the semester was a genius move. Meaning we all had to stick with the schedule that chose for ourselves. Most of our teammates stay on top of that schedule. 
+
+David - Getting together with Mo after a class one day we sat and he helped me to download MongoDB on my system. Without his help, I would not have been able to get the backend to integrate smoothly with our database.
+
 
 2. **Problem-Solving Abilities:** Share a situation where you had to troubleshoot a technical issue and how you approached the problem-solving process.
 
-Emily - When we had to decide which direction to go with our front end, we got in a meeting and I laid out all of the options that we had, and we all discussed which direction we wanted to go in.  There were several different sides to each option we had, and we were able to talk through them and decide on the option that was going to be the best in our circumstance. 
+Emily - When we had to decide which direction to go with our front end, we got in a meeting and I laid out all of the options that we had, and we all discussed which direction we wanted to go in.  There were several different sides to each option we had, and we were able to talk through them and decide on the option that was going to be the best in our circumstances. 
 
-Miled- Telling my team through out the semester about the functionality of the code, within mintutes of each meetings updating to its full functionality. 
+Miled- Telling my team throughout the semester about the functionality of the code, within minutes of each meeting updating to its full functionality. 
+
+David - Login functionality of our code. For some reason when we would log in with an existing user, an error would occur that stated that the objects in our database have no primary key. With the use of AI, I explained the error message and when it would occur. I found out that MongoDB has a function where it autogenerates primary keys for each piece of data that is created. The problem that was causing the error message was that I had defined the primary key in the models file for the accounts app. I edited the models and commented out the primary key definition. Even when I did that I still had the same error occur so what I did next was clear the data for accounts. Once I cleared all the accounts in our database and added them back in with the changes I made to models, log-in was functioning correctly.
 
 3. **Contributions to the Project:** Discuss a specific task you contributed to and how your involvement positively impacted the project's development.
 
-Emily - I was in charge of keeping the team on track and organized.  I took care of taking meeting notes at all of our meetings, making sure that we completed sprint reviews when they were needed (though I wasn't always successful), and submitting written assignments.  I also kept up with the assignments throughout the semester, making sure that they stayed updated when we made changes.  I also set up trello cards, however as the semester went on and we started talking more I was less diligent about keeping the board updated as we were all on the same page.
+Emily - I was in charge of keeping the team on track and organized.  I took care of taking meeting notes at all of our meetings, making sure that we completed sprint reviews when they were needed (though I wasn't always successful), and submitting written assignments.  I also kept up with the assignments throughout the semester, making sure that they stayed updated when we made changes.  I also set up Trello cards, however as the semester went on and we started talking more I was less diligent about keeping the board updated as we were all on the same page.
 
-Miled- I contributed in the project of having a frontend in Tkinter. This frontend within our prestation was our stepping stone into the project. When Mohammed had to build the HTML frontend rapdily having the Tkinter Frontend already being there built as a good template really helped getting the frontend built in HTML. 
+Miled- I contributed to the project of having a frontend in Tkinter. This frontend within our presentation was our stepping stone into the project. When Mohammed had to build the HTML frontend rapidly having the Tkinter Frontend already being there built as a good template really helped getting the frontend built in HTML. 
+
+David - I was tasked with creating the backend system of our project and connecting everything for smooth and seamless functionality. Creating the backend was fun and was the backbone of the project. It allowed for seamless functionality in the project.
 
 4. **Applied Knowledge:** Describe a technical concept learned in class that you've used in your project, highlighting its practical relevance.
 
 Emily - We learned about using tools to help us stay organized, such as version control in Git and to-do lists in the Trello environment.  In learning these tools, I learned different ways of collaboration and the importance of being able to communicate clearly and concisely to let other team members know what I've been working on, whether it's version control in a document on Git or a to-do list item in Trello. 
 
+David - Big shoutout to my Intro to Databases class I took last semester. It gave me a basic understanding of databases and database models. So creating models for the database wasn't too difficult which allowed for an easy setup of our project database.
+
 5. **Adaptability and Learning:** Provide an example of a challenge you faced that required learning a new skill or concept, and how you adapted to overcome it.
 
-Emily - I was unfamiliar with many of the tools that we utilized in class, and the software development life cycle as a whole.  Throughout the semester, I had to learn about using Git and the different frameworks we were using in our project.  I did my best to look up articles and Youtube videos to help me undrstand the different things I was doing, and I also did my best to utilize the knowledge of my teammates in trying to learn these new systems.  When each of us found a good article or video, we shared it to the group so that we could all add to our understanding.
+Emily - I was unfamiliar with many of the tools that we utilized in class, and the software development life cycle as a whole.  Throughout the semester, I had to learn about using Git and the different frameworks we were using in our project.  I did my best to look up articles and YouTube videos to help me understand the different things I was doing, and I also did my best to utilize the knowledge of my teammates in trying to learn these new systems.  When each of us found a good article or video, we shared it to the group so that we could all add to our understanding.
 
 David - I was very unfamiliar with Django and backend work since I don't have much experience with both. Throughout the semester watching YouTube videos, and reading up on Django documentation and StackOverflow were great resources that helped me to grasp a better understanding. I now have a better understanding of how Django works and is structured. I have the confidence to be able to look at a Django project and have a grasp on how it works.
 
-Miled- Dash I had to learn with a new software within a week, with Dash being a mix between of html and python function made it very diffcult. 
+Miled- Dash I had to learn with a new software within a week, with Dash being a mix between of HTML and python functions made it very difficult. 
 
 ---

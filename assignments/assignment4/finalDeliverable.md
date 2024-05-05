@@ -33,7 +33,7 @@ Reflect on your journey in learning software engineering through concrete scenar
 
    David - Teams was a great tool to help communicate and organize our project. I used teams a lot to update my teammates on  the source code and the troubles I was facing. I definitely should've used Trello more to help organize myself and the tasks that I had to do for the project. Discord was also really useful for team meetings and communication. As a team, we had a great start and struggled a little at the end but we were still able to push through thanks to our strong communication.
 
-  Mohammed -  Teams helped communicate and keep organized. It allowed everyone to be on the same page for the most part. Early into the semester, Trello was helpful but as time went on most of our communication was through Discord and teams. 
+   Mohammed -  Teams helped communicate and keep organized. It allowed everyone to be on the same page for the most part. Early into the semester, Trello was helpful but as time went on most of our communication was through Discord and teams. 
 
 
 3. **Challenges and Overcoming Them:**
@@ -97,9 +97,7 @@ Illustrate a coding concept with a relatable analogy:
 
 ### Access Your Work
 
-- **[Presentation Slides](link-to-presentation):** Share a link to your final presentation slides.
 - **[Source Code Repository](https://github.com/MiledKalbourji/CSCI401W/tree/main)** 
-- **Other Materials:** Include links to diagrams or documents you created for your project.
 
 ## Final Reflection Presentation
 

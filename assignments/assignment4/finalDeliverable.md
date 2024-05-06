@@ -103,6 +103,8 @@ Illustrate a coding concept with a relatable analogy:
 
 - **Duration:** 25-minute minimum, 40-minute maximum
 
+Posted in teams
+
 ## Career Readiness Assessment
 
 Answer the following questions with practical examples:
@@ -115,6 +117,7 @@ Miled- Picking a time at the beginning of the semester was a genius move. Meanin
 
 David - Getting together with Mo after a class one day we sat and he helped me to download MongoDB on my system. Without his help, I would not have been able to get the backend to integrate smoothly with our database.
 
+Mohammed - David and I often got together after another class we had during the free period throughout the semester. There were a few  small humps that we had to get over to ensure the database was working well with the backend.  
 
 2. **Problem-Solving Abilities:** Share a situation where you had to troubleshoot a technical issue and how you approached the problem-solving process.
 
@@ -124,6 +127,8 @@ Miled- Telling my team throughout the semester about the functionality of the co
 
 David - Login functionality of our code. For some reason when we would log in with an existing user, an error would occur that stated that the objects in our database have no primary key. With the use of AI, I explained the error message and when it would occur. I found out that MongoDB has a function where it autogenerates primary keys for each piece of data that is created. The problem that was causing the error message was that I had defined the primary key in the models file for the accounts app. I edited the models and commented out the primary key definition. Even when I did that I still had the same error occur so what I did next was clear the data for accounts. Once I cleared all the accounts in our database and added them back in with the changes I made to models, log-in was functioning correctly.
 
+Mohammed - This was my first time using Excel to incorporate a database into MongoDB. What I thought was going to be a very smooth transition did not end up being so simple at first. I had to read some of the documentation and do other research especially because I was using a Mac device. 
+
 3. **Contributions to the Project:** Discuss a specific task you contributed to and how your involvement positively impacted the project's development.
 
 Emily - I was in charge of keeping the team on track and organized.  I took care of taking meeting notes at all of our meetings, making sure that we completed sprint reviews when they were needed (though I wasn't always successful), and submitting written assignments.  I also kept up with the assignments throughout the semester, making sure that they stayed updated when we made changes.  I also set up Trello cards, however as the semester went on and we started talking more I was less diligent about keeping the board updated as we were all on the same page.
@@ -132,11 +137,16 @@ Miled- I contributed to the project of having a frontend in Tkinter. This fronte
 
 David - I was tasked with creating the backend system of our project and connecting everything for smooth and seamless functionality. Creating the backend was fun and was the backbone of the project. It allowed for seamless functionality in the project.
 
+Mohammed - I was tasked with creating the databases for the login and student data. Instead of coding each item one by one, I figured out how to utilize Excel to save time MongoDB creates a schema as well which was also time-saving. This time save also allowed me to develop the front end as time became scarce at the end of the semester. 
+
 4. **Applied Knowledge:** Describe a technical concept learned in class that you've used in your project, highlighting its practical relevance.
 
 Emily - We learned about using tools to help us stay organized, such as version control in Git and to-do lists in the Trello environment.  In learning these tools, I learned different ways of collaboration and the importance of being able to communicate clearly and concisely to let other team members know what I've been working on, whether it's version control in a document on Git or a to-do list item in Trello. 
 
 David - Big shoutout to my Intro to Databases class I took last semester. It gave me a basic understanding of databases and database models. So creating models for the database wasn't too difficult which allowed for an easy setup of our project database.
+
+Mohammed - I created a Website last semester for a web design course that utilized javascript, MongoDB, and postman (for HTTP requests). This prior knowledge helped me with this assignment and I had a lot of valuable insight when it came to database integration and the html/javascript we ended up using. 
+
 
 5. **Adaptability and Learning:** Provide an example of a challenge you faced that required learning a new skill or concept, and how you adapted to overcome it.
 
@@ -145,5 +155,7 @@ Emily - I was unfamiliar with many of the tools that we utilized in class, and t
 David - I was very unfamiliar with Django and backend work since I don't have much experience with both. Throughout the semester watching YouTube videos, and reading up on Django documentation and StackOverflow were great resources that helped me to grasp a better understanding. I now have a better understanding of how Django works and is structured. I have the confidence to be able to look at a Django project and have a grasp on how it works.
 
 Miled- Dash I had to learn with a new software within a week, with Dash being a mix between of HTML and python functions made it very difficult. 
+
+Mohammed - I was unfamiliar with the use of excel with MongoDB and doing extra reading/ research helped me figure it out. I also had trouble with Git and watching YouTube videos helped me figure out how to use it. StackOverflow is always helpful. 
 
 ---
